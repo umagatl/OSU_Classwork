@@ -1,0 +1,128 @@
+\documentclass[draftclsnofoot,onecolumn,letterpaper,10pt,titlepage]{IEEEtran}
+\renewcommand{\sfdefault}{cmss}
+\usepackage[margin= .75in,footskip=0.25in]{geometry}
+
+\newtheorem{theorem}{Theorem}
+\newtheorem{lemma}{Lemma}
+
+\begin{document}
+
+\title{Project 1 write up}
+
+\author{Lance Umagat \\
+CS 444 Spring 2016}
+
+\begin{titlepage}
+\maketitle
+\date{\today}
+
+\begin{abstract}
+This document contains information on the commands used to build the kernal and actions requested. Information on every flag used in the qemu command-line are included in the document. A write up of the concurrency solution has also been included as well as questions about the concurrency from the assignment description.Finally there is also version control logs, formatted as a table,and a work log to show the work done and how long each part took.  
+\end{abstract}
+
+\begin{IEEEkeywords}
+Kernel, Project 1
+\end{IEEEkeywords}
+\end{titlepage}
+
+\section{A log of commands used to perform the requested actions}
+\begin{enumerate}
+\item cd /scratch/fall2016/
+\item git clone https://cs444-135@bitbucket.org/cs444-135/cs444-135.git
+\item git clone git://git.yoctoproject.org/linux-yocto-3.14
+\item cd linux-yocto-3.14/
+\item git tag -l
+\item git checkout tags/v3.14.26
+\item cp /scratch/spring2016/files/config-3.14.26-yocto-qemu ./
+\item mv config-3.14.26-yocto-qemu .config
+\item make -j4 all
+\item cp -r /scratch/spring2016/files/ ./
+\item cp ./files/bzImage-qemux86.bin ./
+\item cp ./files/core-image-lsb-sdk-qemux86.ext3 ./
+\item source /scratch/opt/environment-setup-i586-poky-linux
+\item qemu-system-i386 -gdb tcp::5635 -S -nographic -kernel arch/x86/boot/bzImage -drive file=core-image-lsb-sdk-qemux86.ext3,if=virtio -enable-kvm -net none -usb -localtime --no-reboot --append "root=/dev/vda rw console=ttyS0 debug".
+\item Open another terminal, ran gdb vmlinux in the linux directory
+\item target remote :5135
+\item Go back to the other terminal, login with root  
+\item shutdown -h now 
+\end{enumerate}
+
+\section{Explanation of each flag in qemu command line}
+\begin{enumerate}
+\item -gdb: Wait for gdb connection on device
+\item tcp::5135 : open a connection on port 5135, the space between the 2 ":" is for host number.
+\item -S: Do not start CPU at startup (must type ’c’ in the monitor).
+\item -nographic : disable graphical output so that QEMU is a simple command line application.
+\item -kernal bzImage : The kernel can be either a Linux kernel or in multiboot format, use \\ 
+bzImage as kernel image.
+\item -drive file="file", if="interface" : Define a new drive, file defines which disk image \\
+to use with this drive, and if defines on which type on interface the drive is connected.
+\item -enable-kvm :Enable KVM full virtualization support.
+\item -net : Indicate that no network devices should be configured.
+\item -usb : Enable the USB driver.
+\item -localtime : "localtime" is required for correct date in MS-DOS or Windows.
+\item --no-reboot : Exit instead of rebooting.
+\item --append : Use cmdline as kernel command line
+\end{enumerate}
+
+\section{Answer the following questions in sufficient detail (for the concurrency):}
+    \textbf{1. What do you think the main point of this assignment is?}
+    I think it was to learn concurrent programming in order to learn how to think in parallel. Think in a way that numerous threads start off at once and needs a way to synchronous, so there won't be any inconsistent states and/or deadlock.    
+
+    \textbf{2. How did you personally approach the problem? Design decisions, alogorithm, etc.}
+    I started with two threads running then four. Once I got that working I started to work on mutexes, so that they would work in synchronous. I made the buffer to be a reference in consumer and producer functions, so that they would share the same buffer. The adding and removing of items is the simple part. The last part of the assignment that I spent the most time on was using pthread condition variables, so that it would block the consumer function when the buffer is empty and block the producer function when the buffer is full. They would unblock each other when the their conditions for blocking is met. It all came together around midway when I learned how to use the pthread condition variables since mutexes would block and my only way of blocking is an infinite while loop. Using a while loop would only slow down the threads not blocking it and it was not good design.       
+
+    \textbf{3. How did you ensure your solution was correct? Testing details, for instance.}
+    I limit the amount of threads to be created for consumers and producers to see if they truly block when there is no more producers and all consumers trying to consume an empty buffer and vice versa when there is all producers trying to produce more items to a full buffer and no more consumers.
+
+    \textbf{4. What did you learn?}
+    I definitely learned how to think more in parallel. I also learned how to use and manipulate pthread in more depth rather than just using only mutexes.
+
+%\begin{table}
+%\caption{This is an example of Table legend.}
+%\centering
+%\includegraphics{bozku.t1.eps}
+%\label{tab1}
+%\end{table}
+
+\section{Version and Work Log}
+\textbf{Version control log (formatted as a table) -- there are any number of tools for generating a TeX table from repo logs}
+\begin{tabular}{lp{12cm}}
+  \label{tabular:legend:git-log}
+  \textbf{acronym} & \textbf{meaning} \\
+  V & \texttt{version} \\
+  tag & \texttt{git tag} \\
+  MF & Number of \texttt{modified files}. \\
+  AL & Number of \texttt{added lines}. \\
+  DL & Number of \texttt{deleted lines}. \\
+\end{tabular}
+
+\bigskip
+
+\noindent
+\begin{tabular}{|rllp{7.5cm}rrr|}
+\hline \multicolumn{1}{|c}{\textbf{V}} & \multicolumn{1}{c}{\textbf{tag}}
+& \multicolumn{1}{c}{\textbf{date}}
+& \multicolumn{1}{c}{\textbf{commit message}} & \multicolumn{1}{c}{\textbf{MF}}
+& \multicolumn{1}{c}{\textbf{AL}} & \multicolumn{1}{c|}{\textbf{DL}} \\ \hline
+
+%\hline 1 &  & 2016-04-11 & \href{https://github.com/umagatl/cs444-135/commit/fb1bcd4c91db38c816de29d526bb3a0f2d822a68}{Init push of yocto} & 47,360 & 13,825 & 0 \\
+%\hline 2 &  & 2016-04-11 & \href{https://github.com/umagatl/cs444-135/commit/0086b8db7027bea089216c22d1d29d0b02ced1f0}{Concurrency 1} & 5 & 304 & 0 \\
+\hline
+\end{tabular}
+
+\textbf{Work log. What was done when?}
+\begin{itemize}
+\item 4/03/2016 I made and initalize my repository on bitbucket.
+\item 4/04/2016 I worked on building and running the Linux kernel on qemu. I was able to finish it on the same day.
+\item 4/05/2015 I started on the concurrency assignment.
+\item 4/06/2016 I finished the concurrency assignment.
+\item 4/11/2016 I moved repository to github student development pack then added, commited, and pushed all work to the repository.
+\end{itemize}
+  
+%% \ackrule
+\nocite{*}
+\bibliographystyle{IEEEtran}
+%\section*{Biographies}
+
+\end{document}

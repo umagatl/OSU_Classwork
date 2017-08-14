@@ -1,0 +1,110 @@
+\documentclass[letterpaper,10pt,titlepage,fleqn]{article}
+
+\setlength{\mathindent}{1cm}
+
+\usepackage{graphicx}
+
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{amsthm}
+
+\usepackage{alltt}
+\usepackage{float}
+\usepackage{color}
+
+\usepackage{url}
+
+\usepackage{balance}
+\usepackage[TABBOTCAP, tight]{subfigure}
+\usepackage{enumitem}
+
+\usepackage{pstricks, pst-node}
+
+\usepackage{geometry}
+\geometry{textheight=9in, textwidth=6.5in}
+
+\newcommand{\cred}[1]{{\color{red}#1}}
+\newcommand{\cblue}[1]{{\color{blue}#1}}
+
+\usepackage{hyperref}
+
+\usepackage{textcomp}
+\usepackage{listings}
+
+\def\name{Lance Umagat}
+
+\hypersetup{
+  colorlinks = true,
+  urlcolor = black,
+  pdfauthor = {\name},
+  pdfkeyword = {cs444 ''Assignment 4''},
+  pdftitle = {Assignment 4 write up},
+  pdfsubject = {Assignment 4 write up},
+  pdfpagemode = UseNone,
+}
+
+\parindent = 0.0 in
+\parskip = 0.2 in
+
+\begin{document}
+
+\section*{Project 4}
+
+\textbf{Lance Umagat}
+
+\textbf{Project 4 Write Up}
+
+\textbf{Prepare a document containing the design you plan to use to implement the necessary algorithms.}
+	It took a while to understand how slob.c works, but after a good chunk of print statements it became more clear. We have prev and cur where both gets the previous and current units. It goes to slob\_page\_alloc to allocate a slob block into memory. What slob\_page\_alloc does first for first fit is that it looks for the first available space defined as avail that is big enough to first the unit size which apparently is units \+ delta then it allocates it when it finds enough space. To implement best fit was simple after seeing how it works. Since slob.c already provided with the if statement where it checks for spaces big enough for the slob block, it all comes down to finding the smallest difference between all of the available spaces throughout the page and get the smallest difference which is just a min statement. After we found the min I just reused slob.c first fit algorithm and not find first fit, but to allocate the slob block to the the available space that best fits it. To do the system call and fragmentation part I had to learn that from a youtube video where it showed how to implement system calls within the kernel. Since all of the allocation is done with the slob\_alloc function and  slob\_free for freeing of the memory, I just use mem\_used and mem\_claim for the amount of memory that was used and claimed by the implementation respectively. In slob\_alloc, when it allocates which is after the slob_page_alloc call, I added the size allocated to mem\_used. If it is too big to take up space and needs to allocate a new page I added the size of the page allocated to mem\_claimed. In slob\_free whenever it freed used memory I decreased mem\_used by the size deallocated and I decreased the amount claimed from mem\_claimed whenever it deallocates a page.
+
+\textbf{Answer the following questions in sufficient detail}
+
+    \textbf{1. What do you think the main point of this assignment is?}
+    The main point of this assignment is to learn about how allocation of memory works and how with different algorithm such as first fit and best fit, it would have trade off such as for first fit it takes more fragmentation to do the same work as best fit. The pro of first fit is that it allocates a lot quicker than best fit. Best fit has to search through the whole page just to find where to allocate memory. 
+
+    \textbf{2. How did you personally approach the problem? Design decisions, alogorithm, etc.}
+	I had to read slob.c first fit algorithm and tried to figure out how first fit truly worked even though I have a general idea. After looking at the functionality and using plenty of print statements to see what the function was doing I was able to write the code for best fit since it was a straightforward implementation of finding the min difference and allocating the memory. That was the best solution that I can think of. For the system calls, I was pretty lost and it takes hours online to figured the basics then try my own way. After implementing the system calls, I added the calls to the first fit and best fit slob.c files and created a test file that can be ran in qemu to look at the fragmentation. That's how I compared the two algorithms. From the results it was clear that first fit claimed a lot more pages to allocate memory compared to best fit.
+
+    \textbf{3. How did you ensure your solution was correct? Testing details, for instance.}
+    I used print statements to print out the slob block size that I'm trying to allocate and print out all of the available space sizes for the slob block. Then I print out the best available space found for the slob block. It was clear when I saw all of the available spaces that can fit the slob block and the best available found space being the one with the smallest difference since it doesn't print a ton of available spaces for a page.
+
+    \textbf{4. What did you learn?}
+	I learned how to implement a memory allocation algorithm based on the existing first fit slob.c file. The biggest learning experience from this was the system calls where I implemented the system calls from slob.c and linked it to the syscall header file and syscall table where I inserted the system call prototype and system call number respectively. After that I was able to created a test file to be scp into qemu then ran which invokes my system calls to get the memory used and claimed by my slob.c. It took some trial and error to get it working since I only learned how to compile a system call with the kernel, but there's no way for me to get specific variables inside my slob.c from invoking built in kernel calls.
+
+\textbf{Version control log (formatted as a table) -- there are any number of tools for generating a TeX table from repo logs}
+\begin{tabular}{lp{12cm}}
+  \label{tabular:legend:git-log}
+  \textbf{acronym} & \textbf{meaning} \\
+  V & \texttt{version} \\
+  tag & \texttt{git tag} \\
+  MF & Number of \texttt{modified files}. \\
+  AL & Number of \texttt{added lines}. \\
+  DL & Number of \texttt{deleted lines}. \\
+\end{tabular}
+
+\bigskip
+
+\noindent
+\begin{tabular}{|rllp{7.5cm}rrr|}
+\hline \multicolumn{1}{|c}{\textbf{V}} & \multicolumn{1}{c}{\textbf{tag}}
+& \multicolumn{1}{c}{\textbf{date}}
+& \multicolumn{1}{c}{\textbf{commit message}} & \multicolumn{1}{c}{\textbf{MF}}
+& \multicolumn{1}{c}{\textbf{AL}} & \multicolumn{1}{c|}{\textbf{DL}} \\ \hline
+
+\hline 1 &  & 2015-06-03 & \href{https://github.com/umagatl/cs444-135/commit/aa27c2eda9a1fddda999209345e83fa7379b7a2f} {Final push of project 4, needed fresh linux
+ master} & 15 & 40 & 2129 
+\\
+\hline
+\end{tabular}
+
+\textbf{Work log. What was done when?}
+\begin{enumerate}
+\item 05/28/2016 Played around and printed a lot inside slob.c
+\item 05/28/2016 Started trying to implement best fit, Got new Linux yocto to test with.
+\item 05/30/2016 Got best fit to work, added print statements to view output
+\item 06/01/2016 Working on getting syscalls to work, got it to work, testing and comparing first and best fit
+\item 06/03/2016 I add, commit, and pushed all work to the repository.
+\end{enumerate}
+\end{document}
+
+  
