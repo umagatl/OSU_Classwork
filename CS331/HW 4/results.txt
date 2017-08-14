@@ -1,0 +1,14 @@
+RESULTS
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+Training done on: trainingSet.txt
+Testing done on: trainingSet.txt
+Accuracy percentage: 95.79%
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#
+
+Training done on: trainingSet.txt
+Testing done on: testSet.txt
+Accuracy percentage: 79.88%
+
+#~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~#

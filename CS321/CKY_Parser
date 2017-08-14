@@ -1,0 +1,40 @@
+#CKY Parser (Chomsky normalized grammar)
+#Lance Umagat
+#CS321
+#Extra Credit Assignemtn
+#Worked on with Chris Nguyen
+#Biblography:
+#		http://www.mit.edu/~6.863/fall2012/labs/nltk-ch9.pdf
+
+import nltk
+import sys
+
+class CKY_Parser:  #create a class for the CKY parser
+
+	def __init__(self, CNF): #initate the constructor
+		self.grammar = CNF
+		self.table = {}
+		self.start = none
+		
+		for prod in CNF.prod(): #init the LHS
+			rhs_check = prod.rhs_check()
+			rhs_len = len(rhs_check)
+			
+			#if rhs non-production pair is found
+			if rhs_len == 2:
+				rhs_key = (rhs_check[0].symbol(),rhs_check[1].symbol())
+				
+				#now check table
+				if not self.table.has_key(rhs_key):
+					self.table[rhs_key] = [] #set table to empty if doesnt contain the key
+					
+				self.table[rhs_key].append(prod) #append table key with the production
+				
+			elif rhs_len > 2: #print the production and error 
+				print prod
+				print "Error: grammar is not CNF and has multiple rules."
+				
+	#Print production tables of possible parses
+	# 	Algorithm found here: http://www.mit.edu/~6.863/fall2012/labs/nltk-ch9.pdf
+	
+	

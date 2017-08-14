@@ -1,0 +1,25 @@
+	min_l = 0
+	min_r = 1
+	mid = (low + high) // 2
+	min_sum = int(arr[0]) + int(arr[1])	
+##	#print arr
+##	#print arr[0:mid+1]
+##	#print arr[mid+1:len(arr)]
+	if (len(arr) < 2):
+		return arr[0]
+		
+	elif (len(arr) == 2):
+		return int(arr[0]) + int(arr[1])
+		
+	if(low == high):
+		return int(arr[low]) + int(arr[high])
+	
+	#max1 = Algo3(arr, low, mid)
+	#max2 = Algo3(arr, mid+1, high)
+	#max3 = Cross_check(arr, low, mid, high)
+	#print "Max 1: %s  Max 2: %s   Max 3: %s" % (max1,max2,max3)
+	
+	s1 = (Algo3(arr, low, high +1) > 0)
+	s2 = (Algo3(arr, low +1, high) > 0)
+	
+	return min(abs(int(s1)),abs(int(s2)))
