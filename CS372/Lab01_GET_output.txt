@@ -1,0 +1,22 @@
+No.     Time           Source                Destination           Protocol Length Info
+     81 20.386049000   192.168.1.129         128.119.245.12        HTTP     475    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 
+
+Frame 81: 475 bytes on wire (3800 bits), 475 bytes captured (3800 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 461
+    Identification: 0x1f36 (7990)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa247 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49842 (49842), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 421
+Hypertext Transfer Protocol

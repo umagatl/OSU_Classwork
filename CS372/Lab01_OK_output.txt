@@ -1,0 +1,2451 @@
+No.     Time           Source                Destination           Protocol Length Info
+      1 0.000000000    122.121.86.33         192.168.1.129         UDP      157    Source port: 7849  Destination port: 26714
+
+Frame 1: 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 122.121.86.33 (122.121.86.33), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 143
+    Identification: 0x50ac (20652)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 115
+    Protocol: UDP (17)
+    Header checksum: 0x63ce [validation disabled]
+    Source: 122.121.86.33 (122.121.86.33)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 7849 (7849), Dst Port: 26714 (26714)
+Data (115 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 45 6a 34 8b   d1:ad2:id20:Ej4.
+0010  11 1c ab ac f4 9e 7e c7 c6 dd b3 5f a5 81 d1 c2   ......~...._....
+0020  39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a 4b 40   9:info_hash20:K@
+0030  b1 4a 74 06 1a c7 e6 34 76 e9 07 3d b6 9e 85 5f   .Jt....4v..=..._
+0040  68 3f 36 3a 6e 6f 73 65 65 64 69 31 65 65 31 3a   h?6:noseedi1ee1:
+0050  71 39 3a 67 65 74 5f 70 65 65 72 73 31 3a 74 32   q9:get_peers1:t2
+0060  3a bb de 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31   :..1:v4:LT..1:y1
+0070  3a 71 65                                          :qe
+
+No.     Time           Source                Destination           Protocol Length Info
+      2 0.000203000    192.168.1.129         122.121.86.33         UDP      769    Source port: 26714  Destination port: 7849
+
+Frame 2: 769 bytes on wire (6152 bits), 769 bytes captured (6152 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 122.121.86.33 (122.121.86.33)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 755
+    Identification: 0x1f26 (7974)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x8610 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 122.121.86.33 (122.121.86.33)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 7849 (7849)
+Data (727 bytes)
+
+0000  64 32 3a 69 70 36 3a 7a 79 56 21 1e a9 31 3a 72   d2:ip6:zyV!..1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 35 3a 6e 6f   ..D@f.k.0.2.5:no
+0030  64 65 73 32 30 38 3a 4b 40 b1 91 4c 80 78 b7 0b   des208:K@..L.x..
+0040  8a bc 66 a8 96 1b dc c7 eb ce 49 47 33 f6 b4 c0   ..f.......IG3...
+0050  dc 4b 40 b0 ee 65 99 2a d3 62 80 2c ef 02 14 78   .K@..e.*.b.,...x
+0060  30 ee 36 6b cb 6c 04 9e 6d f3 8c 4b 40 b3 4e 3c   0.6k.l..m..K@.N<
+0070  aa f7 fb 58 93 30 59 a9 78 90 9d 8a 71 de 7e 77   ...X.0Y.x...q.~w
+0080  4a 45 b0 1a e9 4b 40 b2 47 90 07 9e 75 46 08 a7   JE...K@.G...uF..
+0090  fe d0 78 3f 47 1f c7 31 e6 4d ac 43 67 c4 91 4b   ..x?G..1.M.Cg..K
+00a0  40 b2 2a 1c 34 15 25 53 5a 7b a6 ef 69 ea cb 68   @.*.4.%SZ{..i..h
+00b0  86 3d be 5d 4c c3 67 e5 f9 4b 40 b4 ec 7b fe 92   .=.]L.g..K@..{..
+00c0  6c 4c d4 78 c6 5d 7f 11 66 7a 74 95 ae 73 ba 05   lL.x.]..fzt..s..
+00d0  b0 cd c3 4b 40 b4 86 d8 f6 92 69 e7 64 5a 11 66   ...K@.....i.dZ.f
+00e0  4d 13 3e 38 1b 8a a7 ab 61 a8 a1 b6 1f 4b 40 b4   M.>8....a....K@.
+00f0  ae 16 f0 84 71 55 a4 fc 3a 95 a7 6b ad 38 dd 28   ....qU..:..k.8.(
+0100  d6 59 9c 03 67 51 6b 35 3a 74 6f 6b 65 6e 32 30   .Y..gQk5:token20
+0110  3a 5e fe b3 82 3b 11 bc 56 3d 3a 2b 47 93 55 6d   :^...;..V=:+G.Um
+0120  71 27 80 9e f9 36 3a 76 61 6c 75 65 73 6c 36 3a   q'...6:valuesl6:
+0130  31 9f 73 10 1f 48 36 3a 76 a6 f4 14 21 d2 36 3a   1.s..H6:v...!.6:
+0140  72 2b f8 c1 04 26 36 3a da 23 c2 06 1c 3e 36 3a   r+...&6:.#...>6:
+0150  24 e7 5e 87 24 ce 36 3a 01 ab e6 80 22 d0 36 3a   $.^.$.6:....".6:
+0160  24 ee ee 51 05 b1 36 3a 01 af eb ef 22 46 36 3a   $..Q..6:...."F6:
+0170  72 19 ef 99 21 a4 36 3a 7b cb 8b 94 04 00 36 3a   r...!.6:{.....6:
+0180  7d e0 7c 5e 1d d9 36 3a 24 e8 4d 8d 24 58 36 3a   }.|^..6:$.M.$X6:
+0190  af 89 0d 93 22 6f 36 3a 24 e9 2b d7 27 a9 36 3a   ...."o6:$.+.'.6:
+01a0  77 4d ee be 22 e5 36 3a 24 e0 15 bb 1d 17 36 3a   wM..".6:$.....6:
+01b0  6a 01 e7 3b 23 16 36 3a 7b cc 7f ba 25 d1 36 3a   j..;#.6:{...%.6:
+01c0  70 68 55 32 1b d3 36 3a 2a 49 13 a1 91 c0 36 3a   phU2..6:*I....6:
+01d0  da bb 55 8a 20 a4 36 3a cb 74 81 f3 21 b8 36 3a   ..U. .6:.t..!.6:
+01e0  dc 84 6a ae 1b c4 36 3a 3d df 41 c9 1d 09 36 3a   ..j...6:=.A...6:
+01f0  70 69 96 0c 1b b0 36 3a da ad 4b 15 04 09 36 3a   pi....6:..K...6:
+0200  72 18 26 52 1e 7c 36 3a 67 03 c3 76 25 03 36 3a   r.&R.|6:g..v%.6:
+0210  6f ff a8 ad 23 2f 36 3a 6f f8 44 0e 21 77 36 3a   o...#/6:o.D.!w6:
+0220  73 a5 f8 55 67 5c 36 3a 24 ea 5a ca 22 d1 36 3a   s..Ug\6:$.Z.".6:
+0230  7a 79 b8 92 26 5d 36 3a 24 ef ea cb 1e 50 36 3a   zy..&]6:$....P6:
+0240  01 af 9f 47 13 ea 36 3a 3b 66 91 f9 1f b8 36 3a   ...G..6:;f....6:
+0250  6f fb c7 4b 23 a4 36 3a df 13 bd 6e 26 3f 36 3a   o..K#.6:...n&?6:
+0260  3d 3a 48 e2 21 ec 36 3a 6f f3 11 71 22 c3 36 3a   =:H.!.6:o..q".6:
+0270  24 eb 0e 5f 21 c3 36 3a df 8b 87 f2 6b 87 36 3a   $.._!.6:....k.6:
+0280  24 e7 5d 02 11 fc 36 3a 24 e4 b4 1e 07 b5 36 3a   $.]...6:$.....6:
+0290  24 ea 7e 37 05 68 36 3a 72 19 fe 23 22 32 36 3a   $.~7.h6:r..#"26:
+02a0  24 ee ee 51 1d ac 36 3a 3d e6 74 ac 27 98 36 3a   $..Q..6:=.t.'.6:
+02b0  24 e7 5e 87 07 25 36 3a 24 ea ad 35 22 0c 65 65   $.^..%6:$..5".ee
+02c0  31 3a 74 32 3a bb de 31 3a 76 34 3a 55 54 a1 9d   1:t2:..1:v4:UT..
+02d0  31 3a 79 31 3a 72 65                              1:y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+      3 0.124218000    2400:cb00:2048:1::6819:a06 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  105    Encrypted Alert
+
+Frame 3: 105 bytes on wire (840 bits), 105 bytes captured (840 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2400:cb00:2048:1::6819:a06 (2400:cb00:2048:1::6819:a06), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49827 (49827), Seq: 1, Ack: 1, Len: 31
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+      4 0.124294000    2601:1c0:8201:853a:653f:b917:f053:1000 2400:cb00:2048:1::6819:a06 TCP      74     49827→443 [ACK] Seq=1 Ack=32 Win=252 Len=0
+
+Frame 4: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2400:cb00:2048:1::6819:a06 (2400:cb00:2048:1::6819:a06)
+Transmission Control Protocol, Src Port: 49827 (49827), Dst Port: 443 (443), Seq: 1, Ack: 32, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      5 0.125402000    2400:cb00:2048:1::6819:a06 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      74     443→49827 [FIN, ACK] Seq=32 Ack=1 Win=29 Len=0
+
+Frame 5: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2400:cb00:2048:1::6819:a06 (2400:cb00:2048:1::6819:a06), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49827 (49827), Seq: 32, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      6 0.125478000    2601:1c0:8201:853a:653f:b917:f053:1000 2400:cb00:2048:1::6819:a06 TCP      74     [TCP Dup ACK 4#1] 49827→443 [ACK] Seq=1 Ack=32 Win=252 Len=0
+
+Frame 6: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2400:cb00:2048:1::6819:a06 (2400:cb00:2048:1::6819:a06)
+Transmission Control Protocol, Src Port: 49827 (49827), Dst Port: 443 (443), Seq: 1, Ack: 32, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      7 0.125585000    2601:1c0:8201:853a:653f:b917:f053:1000 2400:cb00:2048:1::6819:a06 TCP      74     49827→443 [ACK] Seq=1 Ack=33 Win=252 Len=0
+
+Frame 7: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2400:cb00:2048:1::6819:a06 (2400:cb00:2048:1::6819:a06)
+Transmission Control Protocol, Src Port: 49827 (49827), Dst Port: 443 (443), Seq: 1, Ack: 33, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 0.771493000    fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 8: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 1.879602000    112.105.150.12        192.168.1.129         UDP      157    Source port: 7088  Destination port: 26714
+
+Frame 9: 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 112.105.150.12 (112.105.150.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 143
+    Identification: 0x4b20 (19232)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 109
+    Protocol: UDP (17)
+    Header checksum: 0x397f [validation disabled]
+    Source: 112.105.150.12 (112.105.150.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 7088 (7088), Dst Port: 26714 (26714)
+Data (115 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a b2 bd c2 a9   d1:ad2:id20:....
+0010  d8 ff 6e cf f2 f5 3e 2b 84 cd 74 c8 e3 c2 81 d3   ..n...>+..t.....
+0020  39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a 4b 40   9:info_hash20:K@
+0030  b1 4a 74 06 1a c7 e6 34 76 e9 07 3d b6 9e 85 5f   .Jt....4v..=..._
+0040  68 3f 36 3a 6e 6f 73 65 65 64 69 31 65 65 31 3a   h?6:noseedi1ee1:
+0050  71 39 3a 67 65 74 5f 70 65 65 72 73 31 3a 74 32   q9:get_peers1:t2
+0060  3a 1f a2 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31   :..1:v4:LT..1:y1
+0070  3a 71 65                                          :qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     10 1.879785000    192.168.1.129         112.105.150.12        UDP      769    Source port: 26714  Destination port: 7088
+
+Frame 10: 769 bytes on wire (6152 bits), 769 bytes captured (6152 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 112.105.150.12 (112.105.150.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 755
+    Identification: 0x1f27 (7975)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x5034 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 112.105.150.12 (112.105.150.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 7088 (7088)
+Data (727 bytes)
+
+0000  64 32 3a 69 70 36 3a 70 69 96 0c 1b b0 31 3a 72   d2:ip6:pi....1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 35 3a 6e 6f   ..D@f.k.0.2.5:no
+0030  64 65 73 32 30 38 3a 4b 40 b1 91 4c 80 78 b7 0b   des208:K@..L.x..
+0040  8a bc 66 a8 96 1b dc c7 eb ce 49 47 33 f6 b4 c0   ..f.......IG3...
+0050  dc 4b 40 b0 ee 65 99 2a d3 62 80 2c ef 02 14 78   .K@..e.*.b.,...x
+0060  30 ee 36 6b cb 6c 04 9e 6d f3 8c 4b 40 b3 4e 3c   0.6k.l..m..K@.N<
+0070  aa f7 fb 58 93 30 59 a9 78 90 9d 8a 71 de 7e 77   ...X.0Y.x...q.~w
+0080  4a 45 b0 1a e9 4b 40 b2 47 90 07 9e 75 46 08 a7   JE...K@.G...uF..
+0090  fe d0 78 3f 47 1f c7 31 e6 4d ac 43 67 c4 91 4b   ..x?G..1.M.Cg..K
+00a0  40 b2 2a 1c 34 15 25 53 5a 7b a6 ef 69 ea cb 68   @.*.4.%SZ{..i..h
+00b0  86 3d be 5d 4c c3 67 e5 f9 4b 40 b4 ec 7b fe 92   .=.]L.g..K@..{..
+00c0  6c 4c d4 78 c6 5d 7f 11 66 7a 74 95 ae 73 ba 05   lL.x.]..fzt..s..
+00d0  b0 cd c3 4b 40 b4 86 d8 f6 92 69 e7 64 5a 11 66   ...K@.....i.dZ.f
+00e0  4d 13 3e 38 1b 8a a7 ab 61 a8 a1 b6 1f 4b 40 b4   M.>8....a....K@.
+00f0  ae 16 f0 84 71 55 a4 fc 3a 95 a7 6b ad 38 dd 28   ....qU..:..k.8.(
+0100  d6 59 9c 03 67 51 6b 35 3a 74 6f 6b 65 6e 32 30   .Y..gQk5:token20
+0110  3a 4d 39 d6 76 03 3b de fb 5e a6 6c f9 06 18 b4   :M9.v.;..^.l....
+0120  9f 14 ae a8 d9 36 3a 76 61 6c 75 65 73 6c 36 3a   .....6:valuesl6:
+0130  31 9f 73 10 1f 48 36 3a 76 a6 f4 14 21 d2 36 3a   1.s..H6:v...!.6:
+0140  72 2b f8 c1 04 26 36 3a da 23 c2 06 1c 3e 36 3a   r+...&6:.#...>6:
+0150  24 e7 5e 87 24 ce 36 3a 01 ab e6 80 22 d0 36 3a   $.^.$.6:....".6:
+0160  24 ee ee 51 05 b1 36 3a 01 af eb ef 22 46 36 3a   $..Q..6:...."F6:
+0170  72 19 ef 99 21 a4 36 3a 7b cb 8b 94 04 00 36 3a   r...!.6:{.....6:
+0180  7d e0 7c 5e 1d d9 36 3a 24 e8 4d 8d 24 58 36 3a   }.|^..6:$.M.$X6:
+0190  af 89 0d 93 22 6f 36 3a 24 e9 2b d7 27 a9 36 3a   ...."o6:$.+.'.6:
+01a0  77 4d ee be 22 e5 36 3a 24 e0 15 bb 1d 17 36 3a   wM..".6:$.....6:
+01b0  6a 01 e7 3b 23 16 36 3a 7b cc 7f ba 25 d1 36 3a   j..;#.6:{...%.6:
+01c0  70 68 55 32 1b d3 36 3a 2a 49 13 a1 91 c0 36 3a   phU2..6:*I....6:
+01d0  da bb 55 8a 20 a4 36 3a cb 74 81 f3 21 b8 36 3a   ..U. .6:.t..!.6:
+01e0  dc 84 6a ae 1b c4 36 3a 3d df 41 c9 1d 09 36 3a   ..j...6:=.A...6:
+01f0  70 69 96 0c 1b b0 36 3a da ad 4b 15 04 09 36 3a   pi....6:..K...6:
+0200  72 18 26 52 1e 7c 36 3a 67 03 c3 76 25 03 36 3a   r.&R.|6:g..v%.6:
+0210  6f ff a8 ad 23 2f 36 3a 6f f8 44 0e 21 77 36 3a   o...#/6:o.D.!w6:
+0220  73 a5 f8 55 67 5c 36 3a 24 ea 5a ca 22 d1 36 3a   s..Ug\6:$.Z.".6:
+0230  7a 79 b8 92 26 5d 36 3a 24 ef ea cb 1e 50 36 3a   zy..&]6:$....P6:
+0240  01 af 9f 47 13 ea 36 3a 3b 66 91 f9 1f b8 36 3a   ...G..6:;f....6:
+0250  6f fb c7 4b 23 a4 36 3a df 13 bd 6e 26 3f 36 3a   o..K#.6:...n&?6:
+0260  3d 3a 48 e2 21 ec 36 3a 6f f3 11 71 22 c3 36 3a   =:H.!.6:o..q".6:
+0270  24 eb 0e 5f 21 c3 36 3a df 8b 87 f2 6b 87 36 3a   $.._!.6:....k.6:
+0280  24 e7 5d 02 11 fc 36 3a 24 e4 b4 1e 07 b5 36 3a   $.]...6:$.....6:
+0290  24 ea 7e 37 05 68 36 3a 72 19 fe 23 22 32 36 3a   $.~7.h6:r..#"26:
+02a0  24 ee ee 51 1d ac 36 3a 3d e6 74 ac 27 98 36 3a   $..Q..6:=.t.'.6:
+02b0  24 e7 5e 87 07 25 36 3a 24 ea ad 35 22 0c 65 65   $.^..%6:$..5".ee
+02c0  31 3a 74 32 3a 1f a2 31 3a 76 34 3a 55 54 a1 9d   1:t2:..1:v4:UT..
+02d0  31 3a 79 31 3a 72 65                              1:y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     11 2.778984000    192.168.1.129         79.181.144.231        UDP      145    Source port: 26714  Destination port: 11888
+
+Frame 11: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 79.181.144.231 (79.181.144.231)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 131
+    Identification: 0x1f28 (7976)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x787c [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 79.181.144.231 (79.181.144.231)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 11888 (11888)
+Data (103 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 4b 40 b5 7d   d1:ad2:id20:K@.}
+0010  49 dc ad 4f 14 f2 44 40 66 d0 6b c4 30 b7 32 f6   I..O..D@f.k.0.2.
+0020  36 3a 74 61 72 67 65 74 32 30 3a 4b 44 00 1c 00   6:target20:KD...
+0030  00 53 73 00 00 06 bb 00 00 3d ae 00 00 32 8d 65   .Ss......=...2.e
+0040  31 3a 71 39 3a 66 69 6e 64 5f 6e 6f 64 65 31 3a   1:q9:find_node1:
+0050  74 34 3a 60 62 00 00 31 3a 76 34 3a 55 54 a1 9d   t4:`b..1:v4:UT..
+0060  31 3a 79 31 3a 71 65                              1:y1:qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     12 2.781966000    69.181.214.27         192.168.1.129         UDP      179    Source port: 42012  Destination port: 26714
+
+Frame 12: 179 bytes on wire (1432 bits), 179 bytes captured (1432 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 69.181.214.27 (69.181.214.27), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 165
+    Identification: 0x5790 (22416)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 119
+    Protocol: UDP (17)
+    Header checksum: 0x0d9e [validation disabled]
+    Source: 69.181.214.27 (69.181.214.27)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 42012 (42012), Dst Port: 26714 (26714)
+Data (137 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a da c6 43 5d   d1:ad2:id20:..C]
+0010  9a a9 5c 13 2d 0b 1b 61 de 69 f4 3c 5c fd 48 72   ..\.-..a.i.<\.Hr
+0020  36 3a 74 61 72 67 65 74 32 30 3a 4b 40 b1 92 43   6:target20:K@..C
+0030  35 d9 18 53 67 da 5a 49 5a 15 de 6c e8 ab e8 35   5..Sg.ZIZ..l...5
+0040  3a 74 6f 6b 65 6e 32 30 3a d1 cb d4 b3 5d 62 63   :token20:....]bc
+0050  c6 b6 91 88 b0 f8 0d 18 db cc b7 8b fe 34 3a 76   .............4:v
+0060  6f 74 65 69 30 65 65 31 3a 71 34 3a 76 6f 74 65   otei0ee1:q4:vote
+0070  31 3a 74 34 3a ed 33 00 00 31 3a 76 34 3a 55 54   1:t4:.3..1:v4:UT
+0080  a1 9c 31 3a 79 31 3a 71 65                        ..1:y1:qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     13 2.782155000    192.168.1.129         69.181.214.27         UDP      112    Source port: 26714  Destination port: 42012
+
+Frame 13: 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 69.181.214.27 (69.181.214.27)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 98
+    Identification: 0x1f29 (7977)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x3d68 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 69.181.214.27 (69.181.214.27)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 42012 (42012)
+Data (70 bytes)
+
+0000  64 32 3a 69 70 36 3a 45 b5 d6 1b a4 1c 31 3a 72   d2:ip6:E.....1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 65 31 3a 74   ..D@f.k.0.2.e1:t
+0030  34 3a ed 33 00 00 31 3a 76 34 3a 55 54 a1 9d 31   4:.3..1:v4:UT..1
+0040  3a 79 31 3a 72 65                                 :y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 3.393676000    79.181.144.231        192.168.1.129         UDP      341    Source port: 11888  Destination port: 26714
+
+Frame 14: 341 bytes on wire (2728 bits), 341 bytes captured (2728 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 79.181.144.231 (79.181.144.231), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 327
+    Identification: 0x695e (26974)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 111
+    Protocol: UDP (17)
+    Header checksum: 0x3e62 [validation disabled]
+    Source: 79.181.144.231 (79.181.144.231)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 11888 (11888), Dst Port: 26714 (26714)
+Data (299 bytes)
+
+0000  64 32 3a 69 70 36 3a 43 aa 85 b0 68 5a 31 3a 72   d2:ip6:C...hZ1:r
+0010  64 32 3a 69 64 32 30 3a 4b 45 02 b3 95 f4 17 48   d2:id20:KE.....H
+0020  41 fa 86 71 de e0 2e ef a8 b8 11 3c 35 3a 6e 6f   A..q.......<5:no
+0030  64 65 73 32 30 38 3a 4b 44 25 a3 24 8e 46 01 86   des208:KD%.$.F..
+0040  23 00 5c 2d d8 45 14 9a c2 ab b3 53 8a fa 72 c4   #.\-.E.....S..r.
+0050  91 4b 44 1c 02 1b 7c c5 ec 79 11 d6 d7 0d 9a a0   .KD...|..y......
+0060  23 99 94 09 72 b9 72 b7 5f c8 d5 4b 44 57 79 9e   #...r.r._..KDWy.
+0070  b1 a6 2a a9 7a cc 75 d1 25 a3 ae 2d 3e 12 27 51   ..*.z.u.%..->.'Q
+0080  84 8a 07 5b 16 4b 44 3b 49 55 31 b3 74 af bf 0f   ...[.KD;IU1.t...
+0090  73 cc 2e e2 9f 82 12 66 3b 54 9f d6 4f 21 ad 4b   s......f;T..O!.K
+00a0  44 5a 31 b8 88 21 83 35 44 a5 fc c6 02 c6 ad 45   DZ1..!.5D......E
+00b0  01 96 dd 7b 73 4b 95 2b 5d 4b 44 06 0f 87 54 67   ...{sK.+]KD...Tg
+00c0  b9 a1 0d 01 73 82 ed 67 c9 e3 3d d8 95 d3 4c af   ....s..g..=...L.
+00d0  a9 f2 31 4b 44 41 e1 6c d6 ae 52 90 49 f1 f1 bb   ..1KDA.l..R.I...
+00e0  e9 eb b3 a6 db 3c be af 88 36 1b 9a 1d 4b 44 45   .....<...6...KDE
+00f0  ed 23 98 46 ac 0c be 35 b7 eb 5f a5 5c fd 45 93   .#.F...5.._.\.E.
+0100  f1 79 37 43 c8 1a e1 31 3a 70 69 32 36 37 31 34   .y7C...1:pi26714
+0110  65 65 31 3a 74 34 3a 60 62 00 00 31 3a 76 34 3a   ee1:t4:`b..1:v4:
+0120  4c 54 01 00 31 3a 79 31 3a 72 65                  LT..1:y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 3.394629000    112.105.150.12        192.168.1.129         UDP      157    Source port: 7088  Destination port: 26714
+
+Frame 15: 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 112.105.150.12 (112.105.150.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 143
+    Identification: 0x4e98 (20120)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 109
+    Protocol: UDP (17)
+    Header checksum: 0x3607 [validation disabled]
+    Source: 112.105.150.12 (112.105.150.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 7088 (7088), Dst Port: 26714 (26714)
+Data (115 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a b2 bd c2 a9   d1:ad2:id20:....
+0010  d8 ff 6e cf f2 f5 3e 2b 84 cd 74 c8 e3 c2 81 d3   ..n...>+..t.....
+0020  39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a 4b 89   9:info_hash20:K.
+0030  aa a4 55 d3 d6 a0 9b e5 be d0 27 21 e6 4b f8 6d   ..U.......'!.K.m
+0040  27 f9 36 3a 6e 6f 73 65 65 64 69 31 65 65 31 3a   '.6:noseedi1ee1:
+0050  71 39 3a 67 65 74 5f 70 65 65 72 73 31 3a 74 32   q9:get_peers1:t2
+0060  3a 2b a3 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31   :+.1:v4:LT..1:y1
+0070  3a 71 65                                          :qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     16 3.394775000    192.168.1.129         112.105.150.12        UDP      359    Source port: 26714  Destination port: 7088
+
+Frame 16: 359 bytes on wire (2872 bits), 359 bytes captured (2872 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 112.105.150.12 (112.105.150.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 345
+    Identification: 0x1f2a (7978)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x51cb [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 112.105.150.12 (112.105.150.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 7088 (7088)
+Data (317 bytes)
+
+0000  64 32 3a 69 70 36 3a 70 69 96 0c 1b b0 31 3a 72   d2:ip6:pi....1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 35 3a 6e 6f   ..D@f.k.0.2.5:no
+0030  64 65 73 32 30 38 3a 4b 43 ac 8f 83 5a ee 26 91   des208:KC...Z.&.
+0040  c1 d4 36 88 b4 24 f7 20 2c 03 0f b0 1f 77 d0 c8   ..6..$. ,....w..
+0050  d5 4b 43 cf d2 3b 2a 7e 85 35 d4 98 84 cc 0f 93   .KC..;*~.5......
+0060  77 e3 14 33 88 bc 8a 09 53 c8 d5 4b 43 37 66 c7   w..3....S..KC7f.
+0070  74 86 57 10 11 c0 75 9d 39 bd 77 a6 1d 42 c5 5d   t.W...u.9.w..B.]
+0080  4d f2 26 b0 ff 4b 43 63 0f e9 2d ca 53 73 91 46   M.&..KCc..-.Ss.F
+0090  46 60 34 d2 26 7e e2 4d 71 77 c4 ea 86 c8 d5 4b   F`4.&~.Mqw.....K
+00a0  42 b5 65 bd 3c 9b 9a 3b ad c2 f7 f1 67 48 8a 04   B.e.<..;....gH..
+00b0  03 2f 15 45 f4 28 f7 7f 0b 4b 42 26 28 a0 7c 57   ./.E.(...KB&(.|W
+00c0  ac b7 48 45 1e e3 c4 60 ea 69 11 42 e1 d5 d3 22   ..HE...`.i.B..."
+00d0  89 f7 b5 4b 42 73 96 e2 16 c9 e7 9a 16 22 e3 c9   ...KBs......."..
+00e0  64 8d 42 81 26 b9 4d 25 bb 7d 4d 1a e1 4b 45 a5   d.B.&.M%.}M..KE.
+00f0  e4 60 ef af dd f6 ee ad 25 8e 14 b4 ec ec 23 49   .`......%.....#I
+0100  be 53 fa f0 1d 40 ec 35 3a 74 6f 6b 65 6e 32 30   .S...@.5:token20
+0110  3a 4d 39 d6 76 03 3b de fb 5e a6 6c f9 06 18 b4   :M9.v.;..^.l....
+0120  9f 14 ae a8 d9 65 31 3a 74 32 3a 2b a3 31 3a 76   .....e1:t2:+.1:v
+0130  34 3a 55 54 a1 9d 31 3a 79 31 3a 72 65            4:UT..1:y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     17 4.403174000    114.24.38.82          192.168.1.129         UDP      220    Source port: 7804  Destination port: 26714
+
+Frame 17: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 114.24.38.82 (114.24.38.82), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 206
+    Identification: 0x4c9f (19615)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 51
+    Protocol: UDP (17)
+    Header checksum: 0xdfcc [validation disabled]
+    Source: 114.24.38.82 (114.24.38.82)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 7804 (7804), Dst Port: 26714 (26714)
+Data (178 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 69 0b 4e 9f   d1:ad2:id20:i.N.
+0010  93 48 6d 73 0f 25 c2 a4 2d 87 8b 20 22 a2 01 08   .Hms.%..-.. "...
+0020  31 32 3a 69 6d 70 6c 69 65 64 5f 70 6f 72 74 69   12:implied_porti
+0030  31 65 39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a   1e9:info_hash20:
+0040  4b 40 b1 4a 74 06 1a c7 e6 34 76 e9 07 3d b6 9e   K@.Jt....4v..=..
+0050  85 5f 68 3f 34 3a 70 6f 72 74 69 37 38 30 34 65   ._h?4:porti7804e
+0060  34 3a 73 65 65 64 69 31 65 35 3a 74 6f 6b 65 6e   4:seedi1e5:token
+0070  32 30 3a ab 46 c2 53 5b b6 3c 74 a6 e3 b7 01 ab   20:.F.S[.<t.....
+0080  28 6c e5 af 8f 99 60 65 31 3a 71 31 33 3a 61 6e   (l....`e1:q13:an
+0090  6e 6f 75 6e 63 65 5f 70 65 65 72 31 3a 74 32 3a   nounce_peer1:t2:
+00a0  28 ea 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31 3a   (.1:v4:LT..1:y1:
+00b0  71 65                                             qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     18 4.403305000    192.168.1.129         114.24.38.82          UDP      110    Source port: 26714  Destination port: 7804
+
+Frame 18: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 114.24.38.82 (114.24.38.82)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 96
+    Identification: 0x1f2b (7979)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0xc0ce [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 114.24.38.82 (114.24.38.82)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 7804 (7804)
+Data (68 bytes)
+
+0000  64 32 3a 69 70 36 3a 72 18 26 52 1e 7c 31 3a 72   d2:ip6:r.&R.|1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 65 31 3a 74   ..D@f.k.0.2.e1:t
+0030  32 3a 28 ea 31 3a 76 34 3a 55 54 a1 9d 31 3a 79   2:(.1:v4:UT..1:y
+0040  31 3a 72 65                                       1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     19 4.771543000    fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 19: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     20 7.772826000    fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 20: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     21 8.073876000    2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400a:805::100c SSL      75     Continuation Data
+
+Frame 21: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400a:805::100c (2607:f8b0:400a:805::100c)
+Transmission Control Protocol, Src Port: 49835 (49835), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     22 8.094285000    2607:f8b0:400a:805::100c 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      86     443→49835 [ACK] Seq=1 Ack=2 Win=251 Len=0 SLE=1 SRE=2
+
+Frame 22: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400a:805::100c (2607:f8b0:400a:805::100c), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49835 (49835), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     23 8.423894000    2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400a:804::1003 SSL      75     Continuation Data
+
+Frame 23: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400a:804::1003 (2607:f8b0:400a:804::1003)
+Transmission Control Protocol, Src Port: 49837 (49837), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     24 8.441304000    2607:f8b0:400a:804::1003 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      86     443→49837 [ACK] Seq=1 Ack=2 Win=242 Len=0 SLE=1 SRE=2
+
+Frame 24: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400a:804::1003 (2607:f8b0:400a:804::1003), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49837 (49837), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     25 8.463833000    2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400a:807::200e SSL      75     Continuation Data
+
+Frame 25: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400a:807::200e (2607:f8b0:400a:807::200e)
+Transmission Control Protocol, Src Port: 49831 (49831), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 8.487194000    2607:f8b0:400a:807::200e 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      86     443→49831 [ACK] Seq=1 Ack=2 Win=265 Len=0 SLE=1 SRE=2
+
+Frame 26: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400a:807::200e (2607:f8b0:400a:807::200e), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49831 (49831), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 8.556286000    2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400a:804::1003 SSL      75     Continuation Data
+
+Frame 27: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400a:804::1003 (2607:f8b0:400a:804::1003)
+Transmission Control Protocol, Src Port: 49838 (49838), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 8.573874000    2607:f8b0:400a:804::1003 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      86     443→49838 [ACK] Seq=1 Ack=2 Win=267 Len=0 SLE=1 SRE=2
+
+Frame 28: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400a:804::1003 (2607:f8b0:400a:804::1003), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49838 (49838), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 9.606344000    2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TLSv1.2  75     Continuation Data
+
+Frame 29: 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 1
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     30 9.641294000    2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      86     443→49834 [ACK] Seq=1 Ack=2 Win=432 Len=0 SLE=1 SRE=2
+
+Frame 30: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 1, Ack: 2, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     31 9.783950000    192.168.1.129         79.117.216.107        UDP      145    Source port: 26714  Destination port: 20460
+
+Frame 31: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 79.117.216.107 (79.117.216.107)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 131
+    Identification: 0x1f2c (7980)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x3134 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 79.117.216.107 (79.117.216.107)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 20460 (20460)
+Data (103 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 4b 40 b5 7d   d1:ad2:id20:K@.}
+0010  49 dc ad 4f 14 f2 44 40 66 d0 6b c4 30 b7 32 f6   I..O..D@f.k.0.2.
+0020  36 3a 74 61 72 67 65 74 32 30 3a 4b 44 55 d6 00   6:target20:KDU..
+0030  00 07 5d 00 00 13 cf 00 00 1c 20 00 00 60 ca 65   ..]....... ..`.e
+0040  31 3a 71 39 3a 66 69 6e 64 5f 6e 6f 64 65 31 3a   1:q9:find_node1:
+0050  74 34 3a 2f 04 00 00 31 3a 76 34 3a 55 54 a1 9d   t4:/...1:v4:UT..
+0060  31 3a 79 31 3a 71 65                              1:y1:qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 10.241209000   79.117.216.107        192.168.1.129         UDP      331    Source port: 20460  Destination port: 26714
+
+Frame 32: 331 bytes on wire (2648 bits), 331 bytes captured (2648 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 79.117.216.107 (79.117.216.107), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 317
+    Identification: 0x4cf6 (19702)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 109
+    Protocol: UDP (17)
+    Header checksum: 0x1590 [validation disabled]
+    Source: 79.117.216.107 (79.117.216.107)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 20460 (20460), Dst Port: 26714 (26714)
+Data (289 bytes)
+
+0000  64 32 3a 69 70 36 3a 43 aa 85 b0 68 5a 31 3a 72   d2:ip6:C...hZ1:r
+0010  64 32 3a 69 64 32 30 3a 4b 44 f8 cd e9 22 00 3b   d2:id20:KD...".;
+0020  b8 a1 f5 40 39 b0 58 a4 a2 f6 45 d8 35 3a 6e 6f   ...@9.X...E.5:no
+0030  64 65 73 32 30 38 3a 4b 44 57 79 9e b1 a6 2a a9   des208:KDWy...*.
+0040  7a cc 75 d1 25 a3 ae 2d 3e 12 27 51 84 8a 07 5b   z.u.%..->.'Q...[
+0050  16 4b 44 41 e1 6c d6 ae 52 90 49 f1 f1 bb e9 eb   .KDA.l..R.I.....
+0060  b3 a6 db 3c be af 88 36 1b 9a 1d 4b 44 79 e6 39   ...<...6...KDy.9
+0070  36 24 38 d4 d0 e0 e0 46 c1 36 2f 6c d2 64 6b 57   6$8....F.6/l.dkW
+0080  87 62 4a 1a e9 4b 44 68 3e 87 30 49 eb e7 2b 73   .bJ..KDh>.0I..+s
+0090  58 76 29 0b 36 9d e9 1a e2 05 89 22 52 1a e1 4b   Xv).6......"R..K
+00a0  44 1c 02 1b 7c c5 ec 79 11 d6 d7 0d 9a a0 23 99   D...|..y......#.
+00b0  94 09 72 b9 72 b7 5f c8 d5 4b 44 06 0f 87 54 67   ..r.r._..KD...Tg
+00c0  b9 a1 0d 01 73 82 ed 67 c9 e3 3d d8 95 d3 4c af   ....s..g..=...L.
+00d0  a9 f2 31 4b 44 34 49 f1 f1 bb e9 eb b3 a6 db 3c   ..1KD4I........<
+00e0  87 0c 3e 99 24 5e 52 8b 00 40 b9 85 26 4b 44 25   ..>.$^R..@..&KD%
+00f0  a3 24 8e 46 01 86 23 00 5c 2d d8 45 14 9a c2 ab   .$.F..#.\-.E....
+0100  b3 53 8a fa 72 c4 91 65 31 3a 74 34 3a 2f 04 00   .S..r..e1:t4:/..
+0110  00 31 3a 76 34 3a 55 54 a1 9c 31 3a 79 31 3a 72   .1:v4:UT..1:y1:r
+0120  65                                                e
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 10.649549000   24.241.73.43          192.168.1.129         UDP      148    Source port: 44822  Destination port: 26714
+
+Frame 33: 148 bytes on wire (1184 bits), 148 bytes captured (1184 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 24.241.73.43 (24.241.73.43), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 134
+    Identification: 0xbc7d (48253)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 49
+    Protocol: UDP (17)
+    Header checksum: 0xa884 [validation disabled]
+    Source: 24.241.73.43 (24.241.73.43)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 44822 (44822), Dst Port: 26714 (26714)
+Data (106 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 3a 79 c8 68   d1:ad2:id20::y.h
+0010  62 97 63 34 62 a9 02 3e 2f 9f b7 52 07 4a 3a 9b   b.c4b..>/..R.J:.
+0020  39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a 4b 40   9:info_hash20:K@
+0030  b1 92 43 35 d9 18 53 67 da 5a 49 5a 15 de 6c e8   ..C5..Sg.ZIZ..l.
+0040  ab e8 65 31 3a 71 39 3a 67 65 74 5f 70 65 65 72   ..e1:q9:get_peer
+0050  73 31 3a 74 34 3a 4d aa 0a 34 31 3a 76 34 3a 55   s1:t4:M..41:v4:U
+0060  54 a1 7b 31 3a 79 31 3a 71 65                     T.{1:y1:qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 10.649728000   192.168.1.129         24.241.73.43          UDP      361    Source port: 26714  Destination port: 44822
+
+Frame 34: 361 bytes on wire (2888 bits), 361 bytes captured (2888 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 24.241.73.43 (24.241.73.43)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 347
+    Identification: 0x1f2d (7981)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0xf61f [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 24.241.73.43 (24.241.73.43)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 44822 (44822)
+Data (319 bytes)
+
+0000  64 32 3a 69 70 36 3a 18 f1 49 2b af 16 31 3a 72   d2:ip6:..I+..1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 35 3a 6e 6f   ..D@f.k.0.2.5:no
+0030  64 65 73 32 30 38 3a 4b 40 b1 91 4c 80 78 b7 0b   des208:K@..L.x..
+0040  8a bc 66 a8 96 1b dc c7 eb ce 49 47 33 f6 b4 c0   ..f.......IG3...
+0050  dc 4b 40 b0 ee 65 99 2a d3 62 80 2c ef 02 14 78   .K@..e.*.b.,...x
+0060  30 ee 36 6b cb 6c 04 9e 6d f3 8c 4b 40 b3 4e 3c   0.6k.l..m..K@.N<
+0070  aa f7 fb 58 93 30 59 a9 78 90 9d 8a 71 de 7e 77   ...X.0Y.x...q.~w
+0080  4a 45 b0 1a e9 4b 40 b2 2a 1c 34 15 25 53 5a 7b   JE...K@.*.4.%SZ{
+0090  a6 ef 69 ea cb 68 86 3d be 5d 4c c3 67 e5 f9 4b   ..i..h.=.]L.g..K
+00a0  40 b2 47 90 07 9e 75 46 08 a7 fe d0 78 3f 47 1f   @.G...uF....x?G.
+00b0  c7 31 e6 4d ac 43 67 c4 91 4b 40 b4 86 d8 f6 92   .1.M.Cg..K@.....
+00c0  69 e7 64 5a 11 66 4d 13 3e 38 1b 8a a7 ab 61 a8   i.dZ.fM.>8....a.
+00d0  a1 b6 1f 4b 40 b4 ae 16 f0 84 71 55 a4 fc 3a 95   ...K@.....qU..:.
+00e0  a7 6b ad 38 dd 28 d6 59 9c 03 67 51 6b 4b 40 b4   .k.8.(.Y..gQkK@.
+00f0  ec 7b fe 92 6c 4c d4 78 c6 5d 7f 11 66 7a 74 95   .{..lL.x.]..fzt.
+0100  ae 73 ba 05 b0 cd c3 35 3a 74 6f 6b 65 6e 32 30   .s.....5:token20
+0110  3a ba d7 65 7e f4 75 b1 bb 1d b9 d7 8c ca 37 3f   :..e~.u.......7?
+0120  44 01 70 8c 84 65 31 3a 74 34 3a 4d aa 0a 34 31   D.p..e1:t4:M..41
+0130  3a 76 34 3a 55 54 a1 9d 31 3a 79 31 3a 72 65      :v4:UT..1:y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 10.771481000   fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 35: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     36 13.095780000   fe80::22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 ICMPv6   86     Neighbor Solicitation for 2601:1c0:8201:853a:653f:b917:f053:1000 from 20:aa:4b:eb:0a:d9
+
+Frame 36: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: fe80::22aa:4bff:feeb:ad9 (fe80::22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     37 13.095823000   2601:1c0:8201:853a:653f:b917:f053:1000 fe80::22aa:4bff:feeb:ad9 ICMPv6   86     Neighbor Advertisement 2601:1c0:8201:853a:653f:b917:f053:1000 (sol, ovr) is at f8:16:54:40:cb:03
+
+Frame 37: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: fe80::22aa:4bff:feeb:ad9 (fe80::22aa:4bff:feeb:ad9)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     38 13.723088000   123.203.139.148       192.168.1.129         UDP      220    Source port: 1024  Destination port: 26714
+
+Frame 38: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 123.203.139.148 (123.203.139.148), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 206
+    Identification: 0x28e7 (10471)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 48
+    Protocol: UDP (17)
+    Header checksum: 0x978f [validation disabled]
+    Source: 123.203.139.148 (123.203.139.148)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 1024 (1024), Dst Port: 26714 (26714)
+Data (178 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 2a d8 be 23   d1:ad2:id20:*..#
+0010  f1 4e 0a b6 55 d0 c2 19 e8 78 8b 7c 48 5d 54 df   .N..U....x.|H]T.
+0020  31 32 3a 69 6d 70 6c 69 65 64 5f 70 6f 72 74 69   12:implied_porti
+0030  31 65 39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a   1e9:info_hash20:
+0040  4b 40 b1 4a 74 06 1a c7 e6 34 76 e9 07 3d b6 9e   K@.Jt....4v..=..
+0050  85 5f 68 3f 34 3a 70 6f 72 74 69 38 33 35 37 65   ._h?4:porti8357e
+0060  34 3a 73 65 65 64 69 31 65 35 3a 74 6f 6b 65 6e   4:seedi1e5:token
+0070  32 30 3a 12 c4 13 ab b2 6e 57 7b 06 b5 0f 2b 8d   20:.....nW{...+.
+0080  3c 81 a8 02 a9 89 92 65 31 3a 71 31 33 3a 61 6e   <......e1:q13:an
+0090  6e 6f 75 6e 63 65 5f 70 65 65 72 31 3a 74 32 3a   nounce_peer1:t2:
+00a0  cc 31 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31 3a   .11:v4:LT..1:y1:
+00b0  71 65                                             qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     39 13.723220000   192.168.1.129         123.203.139.148       UDP      110    Source port: 26714  Destination port: 1024
+
+Frame 39: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 123.203.139.148 (123.203.139.148)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 96
+    Identification: 0x1f2e (7982)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x51d6 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 123.203.139.148 (123.203.139.148)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 1024 (1024)
+Data (68 bytes)
+
+0000  64 32 3a 69 70 36 3a 7b cb 8b 94 04 00 31 3a 72   d2:ip6:{.....1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 65 31 3a 74   ..D@f.k.0.2.e1:t
+0030  32 3a cc 31 31 3a 76 34 3a 55 54 a1 9d 31 3a 79   2:.11:v4:UT..1:y
+0040  31 3a 72 65                                       1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     40 14.771464000   fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 40: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     41 15.045396000   Cisco-Li_eb:0a:d9     IntelCor_40:cb:03     ARP      42     Who has 192.168.1.129?  Tell 192.168.1.1
+
+Frame 41: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Address Resolution Protocol (request)
+
+No.     Time           Source                Destination           Protocol Length Info
+     42 15.045415000   IntelCor_40:cb:03     Cisco-Li_eb:0a:d9     ARP      42     192.168.1.129 is at f8:16:54:40:cb:03
+
+Frame 42: 42 bytes on wire (336 bits), 42 bytes captured (336 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Address Resolution Protocol (reply)
+
+No.     Time           Source                Destination           Protocol Length Info
+     43 15.462482000   122.121.86.33         192.168.1.129         UDP      220    Source port: 7849  Destination port: 26714
+
+Frame 43: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 122.121.86.33 (122.121.86.33), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 206
+    Identification: 0x5c3a (23610)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 115
+    Protocol: UDP (17)
+    Header checksum: 0x5801 [validation disabled]
+    Source: 122.121.86.33 (122.121.86.33)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 7849 (7849), Dst Port: 26714 (26714)
+Data (178 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 45 6a 34 8b   d1:ad2:id20:Ej4.
+0010  11 1c ab ac f4 9e 7e c7 c6 dd b3 5f a5 81 d1 c2   ......~...._....
+0020  31 32 3a 69 6d 70 6c 69 65 64 5f 70 6f 72 74 69   12:implied_porti
+0030  31 65 39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a   1e9:info_hash20:
+0040  4b 40 b1 4a 74 06 1a c7 e6 34 76 e9 07 3d b6 9e   K@.Jt....4v..=..
+0050  85 5f 68 3f 34 3a 70 6f 72 74 69 37 38 34 39 65   ._h?4:porti7849e
+0060  34 3a 73 65 65 64 69 31 65 35 3a 74 6f 6b 65 6e   4:seedi1e5:token
+0070  32 30 3a 5e fe b3 82 3b 11 bc 56 3d 3a 2b 47 93   20:^...;..V=:+G.
+0080  55 6d 71 27 80 9e f9 65 31 3a 71 31 33 3a 61 6e   Umq'...e1:q13:an
+0090  6e 6f 75 6e 63 65 5f 70 65 65 72 31 3a 74 32 3a   nounce_peer1:t2:
+00a0  03 b3 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31 3a   ..1:v4:LT..1:y1:
+00b0  71 65                                             qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     44 15.462622000   192.168.1.129         122.121.86.33         UDP      110    Source port: 26714  Destination port: 7849
+
+Frame 44: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 122.121.86.33 (122.121.86.33)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 96
+    Identification: 0x1f2f (7983)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x889a [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 122.121.86.33 (122.121.86.33)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 7849 (7849)
+Data (68 bytes)
+
+0000  64 32 3a 69 70 36 3a 7a 79 56 21 1e a9 31 3a 72   d2:ip6:zyV!..1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 65 31 3a 74   ..D@f.k.0.2.e1:t
+0030  32 3a 03 b3 31 3a 76 34 3a 55 54 a1 9d 31 3a 79   2:..1:v4:UT..1:y
+0040  31 3a 72 65                                       1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     45 16.793937000   192.168.1.129         81.166.31.75          UDP      145    Source port: 26714  Destination port: 52572
+
+Frame 45: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 81.166.31.75 (81.166.31.75)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 131
+    Identification: 0x1f30 (7984)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0xe81f [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 81.166.31.75 (81.166.31.75)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 52572 (52572)
+Data (103 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 4b 40 b5 7d   d1:ad2:id20:K@.}
+0010  49 dc ad 4f 14 f2 44 40 66 d0 6b c4 30 b7 32 f6   I..O..D@f.k.0.2.
+0020  36 3a 74 61 72 67 65 74 32 30 3a 4b 44 7d a8 00   6:target20:KD}..
+0030  00 37 d7 00 00 66 29 00 00 59 53 00 00 2c 45 65   .7...f)..YS..,Ee
+0040  31 3a 71 39 3a 66 69 6e 64 5f 6e 6f 64 65 31 3a   1:q9:find_node1:
+0050  74 34 3a 59 51 00 00 31 3a 76 34 3a 55 54 a1 9d   t4:YQ..1:v4:UT..
+0060  31 3a 79 31 3a 71 65                              1:y1:qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     46 17.510489000   112.105.150.12        192.168.1.129         UDP      220    Source port: 7088  Destination port: 26714
+
+Frame 46: 220 bytes on wire (1760 bits), 220 bytes captured (1760 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 112.105.150.12 (112.105.150.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 206
+    Identification: 0x6f6c (28524)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 109
+    Protocol: UDP (17)
+    Header checksum: 0x14f4 [validation disabled]
+    Source: 112.105.150.12 (112.105.150.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 7088 (7088), Dst Port: 26714 (26714)
+Data (178 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a b2 bd c2 a9   d1:ad2:id20:....
+0010  d8 ff 6e cf f2 f5 3e 2b 84 cd 74 c8 e3 c2 81 d3   ..n...>+..t.....
+0020  31 32 3a 69 6d 70 6c 69 65 64 5f 70 6f 72 74 69   12:implied_porti
+0030  31 65 39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a   1e9:info_hash20:
+0040  4b 40 b1 4a 74 06 1a c7 e6 34 76 e9 07 3d b6 9e   K@.Jt....4v..=..
+0050  85 5f 68 3f 34 3a 70 6f 72 74 69 37 30 38 38 65   ._h?4:porti7088e
+0060  34 3a 73 65 65 64 69 31 65 35 3a 74 6f 6b 65 6e   4:seedi1e5:token
+0070  32 30 3a 4d 39 d6 76 03 3b de fb 5e a6 6c f9 06   20:M9.v.;..^.l..
+0080  18 b4 9f 14 ae a8 d9 65 31 3a 71 31 33 3a 61 6e   .......e1:q13:an
+0090  6e 6f 75 6e 63 65 5f 70 65 65 72 31 3a 74 32 3a   nounce_peer1:t2:
+00a0  af a6 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31 3a   ..1:v4:LT..1:y1:
+00b0  71 65                                             qe
+
+No.     Time           Source                Destination           Protocol Length Info
+     47 17.510762000   192.168.1.129         112.105.150.12        UDP      110    Source port: 26714  Destination port: 7088
+
+Frame 47: 110 bytes on wire (880 bits), 110 bytes captured (880 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 112.105.150.12 (112.105.150.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 96
+    Identification: 0x1f31 (7985)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x52bd [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 112.105.150.12 (112.105.150.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 7088 (7088)
+Data (68 bytes)
+
+0000  64 32 3a 69 70 36 3a 70 69 96 0c 1b b0 31 3a 72   d2:ip6:pi....1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 65 31 3a 74   ..D@f.k.0.2.e1:t
+0030  32 3a af a6 31 3a 76 34 3a 55 54 a1 9d 31 3a 79   2:..1:v4:UT..1:y
+0040  31 3a 72 65                                       1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+     48 17.771348000   fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 48: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     49 17.996354000   fe80::810b:10f:40b7:c58f fe80::22aa:4bff:feeb:ad9 ICMPv6   86     Neighbor Solicitation for fe80::22aa:4bff:feeb:ad9 from f8:16:54:40:cb:03
+
+Frame 49: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: fe80::22aa:4bff:feeb:ad9 (fe80::22aa:4bff:feeb:ad9)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     50 17.999665000   fe80::22aa:4bff:feeb:ad9 fe80::810b:10f:40b7:c58f ICMPv6   78     Neighbor Advertisement fe80::22aa:4bff:feeb:ad9 (rtr, sol)
+
+Frame 50: 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: fe80::22aa:4bff:feeb:ad9 (fe80::22aa:4bff:feeb:ad9), Dst: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     51 18.867244000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TLSv1.2  317    Application Data
+
+Frame 51: 317 bytes on wire (2536 bits), 317 bytes captured (2536 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 2, Ack: 1, Len: 243
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     52 18.867354000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TLSv1.2  120    Application Data
+
+Frame 52: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 245, Ack: 1, Len: 46
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     53 18.873344000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TLSv1.2  195    Application Data
+
+Frame 53: 195 bytes on wire (1560 bits), 195 bytes captured (1560 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 291, Ack: 1, Len: 121
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     54 18.890789000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      74     443→49834 [ACK] Seq=1 Ack=245 Win=454 Len=0
+
+Frame 54: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 1, Ack: 245, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     55 18.894369000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      74     443→49834 [ACK] Seq=1 Ack=291 Win=454 Len=0
+
+Frame 55: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 1, Ack: 291, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     56 18.895413000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  120    Application Data
+
+Frame 56: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 1, Ack: 291, Len: 46
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     57 18.904180000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  144    Application Data
+
+Frame 57: 144 bytes on wire (1152 bits), 144 bytes captured (1152 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 47, Ack: 412, Len: 70
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     58 18.904479000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TCP      74     49834→443 [ACK] Seq=412 Ack=117 Win=257 Len=0
+
+Frame 58: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 412, Ack: 117, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     59 18.904557000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  112    Application Data
+
+Frame 59: 112 bytes on wire (896 bits), 112 bytes captured (896 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 117, Ack: 412, Len: 38
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     60 18.904631000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  120    Application Data
+
+Frame 60: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 155, Ack: 412, Len: 46
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     61 18.904666000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TCP      74     49834→443 [ACK] Seq=412 Ack=201 Win=257 Len=0
+
+Frame 61: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 412, Ack: 201, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     62 18.905161000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TLSv1.2  120    Application Data
+
+Frame 62: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 412, Ack: 201, Len: 46
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     63 18.912528000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  130    Application Data
+
+Frame 63: 130 bytes on wire (1040 bits), 130 bytes captured (1040 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 201, Ack: 412, Len: 56
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     64 18.915055000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  424    Application Data
+
+Frame 64: 424 bytes on wire (3392 bits), 424 bytes captured (3392 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 257, Ack: 412, Len: 350
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     65 18.915155000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TCP      74     49834→443 [ACK] Seq=458 Ack=607 Win=255 Len=0
+
+Frame 65: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 458, Ack: 607, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     66 18.915228000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TLSv1.2  120    Application Data
+
+Frame 66: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 607, Ack: 412, Len: 46
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     67 18.915897000   2601:1c0:8201:853a:653f:b917:f053:1000 2607:f8b0:400e:c03::69 TLSv1.2  120    Application Data
+
+Frame 67: 120 bytes on wire (960 bits), 120 bytes captured (960 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69)
+Transmission Control Protocol, Src Port: 49834 (49834), Dst Port: 443 (443), Seq: 458, Ack: 653, Len: 46
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     68 18.944894000   2607:f8b0:400e:c03::69 2601:1c0:8201:853a:653f:b917:f053:1000 TCP      74     443→49834 [ACK] Seq=653 Ack=504 Win=454 Len=0
+
+Frame 68: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2607:f8b0:400e:c03::69 (2607:f8b0:400e:c03::69), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49834 (49834), Seq: 653, Ack: 504, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     69 19.244478000   2601:1c0:8201:853a:653f:b917:f053:1000 ff02::1:ffeb:ad9      ICMPv6   86     Neighbor Solicitation for 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 from f8:16:54:40:cb:03
+
+Frame 69: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_ff:eb:0a:d9 (33:33:ff:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: ff02::1:ffeb:ad9 (ff02::1:ffeb:ad9)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     70 19.252799000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 ICMPv6   86     Neighbor Advertisement 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (rtr, sol, ovr) is at 20:aa:4b:eb:0a:d9
+
+Frame 70: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+     71 19.252831000   2601:1c0:8201:853a:653f:b917:f053:1000 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 DNS      97     Standard query 0x61f4  A gaia.cs.umass.edu
+
+Frame 71: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9)
+User Datagram Protocol, Src Port: 58072 (58072), Dst Port: 53 (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     72 19.353267000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 DNS      113    Standard query response 0x61f4  A 128.119.245.12
+
+Frame 72: 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 58072 (58072)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     73 19.354630000   2601:1c0:8201:853a:653f:b917:f053:1000 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 DNS      97     Standard query 0x4da5  AAAA gaia.cs.umass.edu
+
+Frame 73: 97 bytes on wire (776 bits), 97 bytes captured (776 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9)
+User Datagram Protocol, Src Port: 64590 (64590), Dst Port: 53 (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     74 19.457200000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 DNS      150    Standard query response 0x4da5 
+
+Frame 74: 150 bytes on wire (1200 bits), 150 bytes captured (1200 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 64590 (64590)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     75 19.457778000   192.168.1.129         128.119.245.12        TCP      66     49842→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=256 SACK_PERM=1
+
+Frame 75: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f32 (7986)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa3e4 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49842 (49842), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     76 19.457925000   192.168.1.129         128.119.245.12        TCP      66     49843→80 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=256 SACK_PERM=1
+
+Frame 76: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f33 (7987)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa3e3 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49843 (49843), Dst Port: 80 (80), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     77 19.556956000   128.119.245.12        192.168.1.129         TCP      66     80→49842 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 77: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 47
+    Protocol: TCP (6)
+    Header checksum: 0x13f7 [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 49842 (49842), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     78 19.557039000   192.168.1.129         128.119.245.12        TCP      54     49842→80 [ACK] Seq=1 Ack=1 Win=66560 Len=0
+
+Frame 78: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1f34 (7988)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa3ee [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49842 (49842), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     79 19.560424000   128.119.245.12        192.168.1.129         TCP      66     80→49843 [SYN, ACK] Seq=0 Ack=1 Win=29200 Len=0 MSS=1460 SACK_PERM=1 WS=128
+
+Frame 79: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 47
+    Protocol: TCP (6)
+    Header checksum: 0x13f7 [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 49843 (49843), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     80 19.560483000   192.168.1.129         128.119.245.12        TCP      54     49843→80 [ACK] Seq=1 Ack=1 Win=66560 Len=0
+
+Frame 80: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1f35 (7989)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa3ed [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49843 (49843), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     81 20.386049000   192.168.1.129         128.119.245.12        HTTP     475    GET /wireshark-labs/INTRO-wireshark-file1.html HTTP/1.1 
+
+Frame 81: 475 bytes on wire (3800 bits), 475 bytes captured (3800 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 461
+    Identification: 0x1f36 (7990)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa247 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49842 (49842), Dst Port: 80 (80), Seq: 1, Ack: 1, Len: 421
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     82 20.495065000   128.119.245.12        192.168.1.129         TCP      54     80→49842 [ACK] Seq=1 Ack=422 Win=30336 Len=0
+
+Frame 82: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x3f2e (16174)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 47
+    Protocol: TCP (6)
+    Header checksum: 0xd4d4 [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 49842 (49842), Seq: 1, Ack: 422, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     83 20.496088000   128.119.245.12        192.168.1.129         HTTP     494    HTTP/1.1 200 OK  (text/html)
+
+Frame 83: 494 bytes on wire (3952 bits), 494 bytes captured (3952 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 480
+    Identification: 0x3f2f (16175)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 47
+    Protocol: TCP (6)
+    Header checksum: 0xd31b [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 49842 (49842), Seq: 1, Ack: 422, Len: 440
+Hypertext Transfer Protocol
+Line-based text data: text/html
+
+No.     Time           Source                Destination           Protocol Length Info
+     84 20.522553000   2601:1c0:8201:853a:653f:b917:f053:1000 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 DNS      96     Standard query 0x48d9  A uib.ff.avast.com
+
+Frame 84: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9)
+User Datagram Protocol, Src Port: 62509 (62509), Dst Port: 53 (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     85 20.537047000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 DNS      240    Standard query response 0x48d9  A 169.54.166.68 A 77.234.44.70 A 77.234.42.69 A 77.234.44.71 A 77.234.44.69 A 169.54.166.66 A 169.54.166.76 A 169.54.166.74 A 77.234.44.68
+
+Frame 85: 240 bytes on wire (1920 bits), 240 bytes captured (1920 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 62509 (62509)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     86 20.540331000   2601:1c0:8201:853a:653f:b917:f053:1000 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 DNS      96     Standard query 0xbf0c  AAAA uib.ff.avast.com
+
+Frame 86: 96 bytes on wire (768 bits), 96 bytes captured (768 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9)
+User Datagram Protocol, Src Port: 59535 (59535), Dst Port: 53 (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+     87 20.556018000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 DNS      142    Standard query response 0xbf0c 
+
+Frame 87: 142 bytes on wire (1136 bits), 142 bytes captured (1136 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 59535 (59535)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+     88 20.556803000   192.168.1.129         169.54.166.68         TCP      66     49844→443 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=256 SACK_PERM=1
+
+Frame 88: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f37 (7991)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc9e8 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     89 20.617981000   192.168.1.129         128.119.245.12        HTTP     421    GET /favicon.ico HTTP/1.1 
+
+Frame 89: 421 bytes on wire (3368 bits), 421 bytes captured (3368 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 407
+    Identification: 0x1f38 (7992)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa27b [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49842 (49842), Dst Port: 80 (80), Seq: 422, Ack: 441, Len: 367
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+     90 20.618616000   169.54.166.68         192.168.1.129         TCP      66     443→49844 [SYN, ACK] Seq=0 Ack=1 Win=2920 Len=0 MSS=1460 SACK_PERM=1 WS=8192
+
+Frame 90: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x3400 [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     91 20.618730000   192.168.1.129         169.54.166.68         TCP      54     49844→443 [ACK] Seq=1 Ack=1 Win=66560 Len=0
+
+Frame 91: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1f39 (7993)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc9f2 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     92 20.620358000   192.168.1.129         169.54.166.68         TLSv1.2  260    Client Hello
+
+Frame 92: 260 bytes on wire (2080 bits), 260 bytes captured (2080 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 246
+    Identification: 0x1f3a (7994)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc923 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 1, Ack: 1, Len: 206
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     93 20.686305000   169.54.166.68         192.168.1.129         TCP      54     443→49844 [ACK] Seq=1 Ack=207 Win=8192 Len=0
+
+Frame 93: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x153c (5436)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x1ed0 [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 1, Ack: 207, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     94 20.686396000   169.54.166.68         192.168.1.129         TLSv1.2  1314   Server Hello
+
+Frame 94: 1314 bytes on wire (10512 bits), 1314 bytes captured (10512 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 1300
+    Identification: 0x153d (5437)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x19e3 [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 1, Ack: 207, Len: 1260
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     95 20.686449000   169.54.166.68         192.168.1.129         TCP      1314   [TCP segment of a reassembled PDU]
+
+Frame 95: 1314 bytes on wire (10512 bits), 1314 bytes captured (10512 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 1300
+    Identification: 0x153e (5438)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x19e2 [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 1261, Ack: 207, Len: 1260
+
+No.     Time           Source                Destination           Protocol Length Info
+     96 20.686494000   192.168.1.129         169.54.166.68         TCP      54     49844→443 [ACK] Seq=207 Ack=2521 Win=66560 Len=0
+
+Frame 96: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1f3b (7995)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc9f0 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 207, Ack: 2521, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     97 20.686566000   169.54.166.68         192.168.1.129         TLSv1.2  676    Certificate
+
+Frame 97: 676 bytes on wire (5408 bits), 676 bytes captured (5408 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 662
+    Identification: 0x153f (5439)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x1c5f [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 2521, Ack: 207, Len: 622
+[3 Reassembled TCP Segments (3057 bytes): #94(1184), #95(1260), #97(613)]
+Secure Sockets Layer
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     98 20.689842000   192.168.1.129         169.54.166.68         TLSv1.2  481    Client Key Exchange, Change Cipher Spec, Encrypted Handshake Message, Encrypted Handshake Message
+
+Frame 98: 481 bytes on wire (3848 bits), 481 bytes captured (3848 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 467
+    Identification: 0x1f3c (7996)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc844 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 207, Ack: 3143, Len: 427
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+     99 20.717636000   128.119.245.12        192.168.1.129         HTTP     540    HTTP/1.1 404 Not Found  (text/html)
+
+Frame 99: 540 bytes on wire (4320 bits), 540 bytes captured (4320 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 526
+    Identification: 0x3f30 (16176)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 47
+    Protocol: TCP (6)
+    Header checksum: 0xd2ec [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 49842 (49842), Seq: 441, Ack: 789, Len: 486
+Hypertext Transfer Protocol
+Line-based text data: text/html
+
+No.     Time           Source                Destination           Protocol Length Info
+    100 20.757310000   169.54.166.68         192.168.1.129         TLSv1.2  336    New Session Ticket, Change Cipher Spec, Encrypted Handshake Message
+
+Frame 100: 336 bytes on wire (2688 bits), 336 bytes captured (2688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 322
+    Identification: 0x1540 (5440)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x1db2 [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 3143, Ack: 634, Len: 282
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+    101 20.757717000   192.168.1.129         169.54.166.68         TLSv1.2  635    Application Data
+
+Frame 101: 635 bytes on wire (5080 bits), 635 bytes captured (5080 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 621
+    Identification: 0x1f3d (7997)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc7a9 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 634, Ack: 3425, Len: 581
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+    102 20.757824000   192.168.1.129         169.54.166.68         TLSv1.2  395    Application Data
+
+Frame 102: 395 bytes on wire (3160 bits), 395 bytes captured (3160 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 381
+    Identification: 0x1f3e (7998)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc898 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 1215, Ack: 3425, Len: 341
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+    103 20.786894000   fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 103: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    104 20.824773000   169.54.166.68         192.168.1.129         TCP      54     443→49844 [ACK] Seq=3425 Ack=1556 Win=8192 Len=0
+
+Frame 104: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1541 (5441)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x1ecb [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 3425, Ack: 1556, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    105 20.824848000   169.54.166.68         192.168.1.129         TLSv1.2  379    Application Data
+
+Frame 105: 379 bytes on wire (3032 bits), 379 bytes captured (3032 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 365
+    Identification: 0x1542 (5442)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x1d85 [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 3425, Ack: 1556, Len: 325
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+    106 20.924098000   192.168.1.129         128.119.245.12        TCP      54     49842→80 [ACK] Seq=789 Ack=927 Win=65792 Len=0
+
+Frame 106: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1f3f (7999)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa3e3 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49842 (49842), Dst Port: 80 (80), Seq: 789, Ack: 927, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    107 21.033361000   192.168.1.129         169.54.166.68         TCP      54     49844→443 [ACK] Seq=1556 Ack=3750 Win=65536 Len=0
+
+Frame 107: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1f40 (8000)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc9eb [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 1556, Ack: 3750, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    108 21.094367000   169.54.166.68         192.168.1.129         TLSv1.2  379    [TCP Retransmission] Application Data
+
+Frame 108: 379 bytes on wire (3032 bits), 379 bytes captured (3032 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 169.54.166.68 (169.54.166.68), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 365
+    Identification: 0x1543 (5443)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 53
+    Protocol: TCP (6)
+    Header checksum: 0x1d84 [validation disabled]
+    Source: 169.54.166.68 (169.54.166.68)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 443 (443), Dst Port: 49844 (49844), Seq: 3425, Ack: 1556, Len: 325
+Secure Sockets Layer
+
+No.     Time           Source                Destination           Protocol Length Info
+    109 21.094459000   192.168.1.129         169.54.166.68         TCP      66     [TCP Dup ACK 107#1] 49844→443 [ACK] Seq=1556 Ack=3750 Win=65536 Len=0 SLE=3425 SRE=3750
+
+Frame 109: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 169.54.166.68 (169.54.166.68)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f41 (8001)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xc9de [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 169.54.166.68 (169.54.166.68)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49844 (49844), Dst Port: 443 (443), Seq: 1556, Ack: 3750, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    110 21.254466000   2601:1c0:8201:853a:653f:b917:f053:1000 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 DNS      108    Standard query 0xfcd1  A engrprn.engr.oregonstate.edu
+
+Frame 110: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9)
+User Datagram Protocol, Src Port: 62180 (62180), Dst Port: 53 (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    111 21.274124000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 DNS      165    Standard query response 0xfcd1  CNAME winprn.engr.oregonstate.edu A 128.193.40.95
+
+Frame 111: 165 bytes on wire (1320 bits), 165 bytes captured (1320 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 62180 (62180)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    112 21.275873000   2601:1c0:8201:853a:653f:b917:f053:1000 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 DNS      108    Standard query 0xf9be  AAAA engrprn.engr.oregonstate.edu
+
+Frame 112: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9)
+User Datagram Protocol, Src Port: 61356 (61356), Dst Port: 53 (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    113 21.298781000   2601:1c0:8201:853a:653f:b917:f053:1000 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 DNS      108    Standard query 0xf9be  AAAA engrprn.engr.oregonstate.edu
+
+Frame 113: 108 bytes on wire (864 bits), 108 bytes captured (864 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000), Dst: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9)
+User Datagram Protocol, Src Port: 61356 (61356), Dst Port: 53 (53)
+Domain Name System (query)
+
+No.     Time           Source                Destination           Protocol Length Info
+    114 21.323855000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 DNS      149    Standard query response 0xf9be  CNAME winprn.engr.oregonstate.edu
+
+Frame 114: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 61356 (61356)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    115 21.323945000   2601:1c0:8201:853a:22aa:4bff:feeb:ad9 2601:1c0:8201:853a:653f:b917:f053:1000 DNS      149    Standard query response 0xf9be  CNAME winprn.engr.oregonstate.edu
+
+Frame 115: 149 bytes on wire (1192 bits), 149 bytes captured (1192 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: 2601:1c0:8201:853a:22aa:4bff:feeb:ad9 (2601:1c0:8201:853a:22aa:4bff:feeb:ad9), Dst: 2601:1c0:8201:853a:653f:b917:f053:1000 (2601:1c0:8201:853a:653f:b917:f053:1000)
+User Datagram Protocol, Src Port: 53 (53), Dst Port: 61356 (61356)
+Domain Name System (response)
+
+No.     Time           Source                Destination           Protocol Length Info
+    116 21.328344000   192.168.1.129         128.193.40.95         TCP      66     49846→445 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=256 SACK_PERM=1
+
+Frame 116: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.193.40.95 (128.193.40.95)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f42 (8002)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x7038 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.193.40.95 (128.193.40.95)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49846 (49846), Dst Port: 445 (445), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    117 22.415496000   192.168.1.129         128.193.40.95         ICMP     74     Echo (ping) request  id=0x0001, seq=39/9984, ttl=32 (reply in 118)
+
+Frame 117: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.193.40.95 (128.193.40.95)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 60
+    Identification: 0x1f43 (8003)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 32
+    Protocol: ICMP (1)
+    Header checksum: 0x1035 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.193.40.95 (128.193.40.95)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    118 22.427339000   128.193.40.95         192.168.1.129         ICMP     74     Echo (ping) reply    id=0x0001, seq=39/9984, ttl=121 (request in 117)
+
+Frame 118: 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 128.193.40.95 (128.193.40.95), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 60
+    Identification: 0x2607 (9735)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 121
+    Protocol: ICMP (1)
+    Header checksum: 0xb050 [validation disabled]
+    Source: 128.193.40.95 (128.193.40.95)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Internet Control Message Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    119 22.428104000   192.168.1.129         128.193.40.95         TCP      66     49847→139 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=256 SACK_PERM=1
+
+Frame 119: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.193.40.95 (128.193.40.95)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f44 (8004)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x7036 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.193.40.95 (128.193.40.95)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49847 (49847), Dst Port: 139 (139), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    120 23.142216000   fe80::22aa:4bff:feeb:ad9 fe80::810b:10f:40b7:c58f ICMPv6   86     Neighbor Solicitation for fe80::810b:10f:40b7:c58f from 20:aa:4b:eb:0a:d9
+
+Frame 120: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 6, Src: fe80::22aa:4bff:feeb:ad9 (fe80::22aa:4bff:feeb:ad9), Dst: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    121 23.142550000   fe80::810b:10f:40b7:c58f fe80::22aa:4bff:feeb:ad9 ICMPv6   86     Neighbor Advertisement fe80::810b:10f:40b7:c58f (sol, ovr) is at f8:16:54:40:cb:03
+
+Frame 121: 86 bytes on wire (688 bits), 86 bytes captured (688 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: fe80::22aa:4bff:feeb:ad9 (fe80::22aa:4bff:feeb:ad9)
+Internet Control Message Protocol v6
+
+No.     Time           Source                Destination           Protocol Length Info
+    122 23.773571000   192.168.1.129         67.185.106.73         UDP      145    Source port: 26714  Destination port: 50321
+
+Frame 122: 145 bytes on wire (1160 bits), 145 bytes captured (1160 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 67.185.106.73 (67.185.106.73)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 131
+    Identification: 0x1f45 (8005)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0xaaf9 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 67.185.106.73 (67.185.106.73)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 50321 (50321)
+Data (103 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a 4b 40 b5 7d   d1:ad2:id20:K@.}
+0010  49 dc ad 4f 14 f2 44 40 66 d0 6b c4 30 b7 32 f6   I..O..D@f.k.0.2.
+0020  36 3a 74 61 72 67 65 74 32 30 3a 4b 44 0c ed 00   6:target20:KD...
+0030  00 0a 26 00 00 6f ea 00 00 3d 0d 00 00 25 cc 65   ..&..o...=...%.e
+0040  31 3a 71 39 3a 66 69 6e 64 5f 6e 6f 64 65 31 3a   1:q9:find_node1:
+0050  74 34 3a 55 12 00 00 31 3a 76 34 3a 55 54 a1 9d   t4:U...1:v4:UT..
+0060  31 3a 79 31 3a 71 65                              1:y1:qe
+
+No.     Time           Source                Destination           Protocol Length Info
+    123 23.775241000   124.126.204.189       192.168.1.129         UDP      157    Source port: 9753  Destination port: 26714
+
+Frame 123: 157 bytes on wire (1256 bits), 157 bytes captured (1256 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 124.126.204.189 (124.126.204.189), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 143
+    Identification: 0x3b4a (15178)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 49
+    Protocol: UDP (17)
+    Header checksum: 0x428f [validation disabled]
+    Source: 124.126.204.189 (124.126.204.189)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 9753 (9753), Dst Port: 26714 (26714)
+Data (115 bytes)
+
+0000  64 31 3a 61 64 32 3a 69 64 32 30 3a d4 82 40 d2   d1:ad2:id20:..@.
+0010  c5 60 c1 d9 69 86 87 7e 69 9e 79 ef 58 25 10 92   .`..i..~i.y.X%..
+0020  39 3a 69 6e 66 6f 5f 68 61 73 68 32 30 3a 4b 40   9:info_hash20:K@
+0030  b1 4a 74 06 1a c7 e6 34 76 e9 07 3d b6 9e 85 5f   .Jt....4v..=..._
+0040  68 3f 36 3a 6e 6f 73 65 65 64 69 31 65 65 31 3a   h?6:noseedi1ee1:
+0050  71 39 3a 67 65 74 5f 70 65 65 72 73 31 3a 74 32   q9:get_peers1:t2
+0060  3a 71 b9 31 3a 76 34 3a 4c 54 01 00 31 3a 79 31   :q.1:v4:LT..1:y1
+0070  3a 71 65                                          :qe
+
+No.     Time           Source                Destination           Protocol Length Info
+    124 23.775476000   192.168.1.129         124.126.204.189       UDP      777    Source port: 26714  Destination port: 9753
+
+Frame 124: 777 bytes on wire (6216 bits), 777 bytes captured (6216 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 124.126.204.189 (124.126.204.189)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 763
+    Identification: 0x1f46 (8006)
+    Flags: 0x00
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: UDP (17)
+    Header checksum: 0x0d47 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 124.126.204.189 (124.126.204.189)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 26714 (26714), Dst Port: 9753 (9753)
+Data (735 bytes)
+
+0000  64 32 3a 69 70 36 3a 7c 7e cc bd 26 19 31 3a 72   d2:ip6:|~..&.1:r
+0010  64 32 3a 69 64 32 30 3a 4b 40 b5 7d 49 dc ad 4f   d2:id20:K@.}I..O
+0020  14 f2 44 40 66 d0 6b c4 30 b7 32 f6 35 3a 6e 6f   ..D@f.k.0.2.5:no
+0030  64 65 73 32 30 38 3a 4b 40 b1 91 4c 80 78 b7 0b   des208:K@..L.x..
+0040  8a bc 66 a8 96 1b dc c7 eb ce 49 47 33 f6 b4 c0   ..f.......IG3...
+0050  dc 4b 40 b0 ee 65 99 2a d3 62 80 2c ef 02 14 78   .K@..e.*.b.,...x
+0060  30 ee 36 6b cb 6c 04 9e 6d f3 8c 4b 40 b3 4e 3c   0.6k.l..m..K@.N<
+0070  aa f7 fb 58 93 30 59 a9 78 90 9d 8a 71 de 7e 77   ...X.0Y.x...q.~w
+0080  4a 45 b0 1a e9 4b 40 b2 47 90 07 9e 75 46 08 a7   JE...K@.G...uF..
+0090  fe d0 78 3f 47 1f c7 31 e6 4d ac 43 67 c4 91 4b   ..x?G..1.M.Cg..K
+00a0  40 b2 2a 1c 34 15 25 53 5a 7b a6 ef 69 ea cb 68   @.*.4.%SZ{..i..h
+00b0  86 3d be 5d 4c c3 67 e5 f9 4b 40 b4 ec 7b fe 92   .=.]L.g..K@..{..
+00c0  6c 4c d4 78 c6 5d 7f 11 66 7a 74 95 ae 73 ba 05   lL.x.]..fzt..s..
+00d0  b0 cd c3 4b 40 b4 86 d8 f6 92 69 e7 64 5a 11 66   ...K@.....i.dZ.f
+00e0  4d 13 3e 38 1b 8a a7 ab 61 a8 a1 b6 1f 4b 40 b4   M.>8....a....K@.
+00f0  ae 16 f0 84 71 55 a4 fc 3a 95 a7 6b ad 38 dd 28   ....qU..:..k.8.(
+0100  d6 59 9c 03 67 51 6b 35 3a 74 6f 6b 65 6e 32 30   .Y..gQk5:token20
+0110  3a 77 fd bd b2 da a9 2d 81 b2 f1 d9 cd fb 05 85   :w.....-........
+0120  f4 a2 f1 2f 4f 36 3a 76 61 6c 75 65 73 6c 36 3a   .../O6:valuesl6:
+0130  31 9f 73 10 1f 48 36 3a 76 a6 f4 14 21 d2 36 3a   1.s..H6:v...!.6:
+0140  72 2b f8 c1 04 26 36 3a da 23 c2 06 1c 3e 36 3a   r+...&6:.#...>6:
+0150  24 e7 5e 87 24 ce 36 3a 01 ab e6 80 22 d0 36 3a   $.^.$.6:....".6:
+0160  24 ee ee 51 05 b1 36 3a 01 af eb ef 22 46 36 3a   $..Q..6:...."F6:
+0170  72 19 ef 99 21 a4 36 3a 7b cb 8b 94 04 00 36 3a   r...!.6:{.....6:
+0180  7d e0 7c 5e 1d d9 36 3a 24 e8 4d 8d 24 58 36 3a   }.|^..6:$.M.$X6:
+0190  af 89 0d 93 22 6f 36 3a 24 e9 2b d7 27 a9 36 3a   ...."o6:$.+.'.6:
+01a0  77 4d ee be 22 e5 36 3a 24 e0 15 bb 1d 17 36 3a   wM..".6:$.....6:
+01b0  6a 01 e7 3b 23 16 36 3a 7b cc 7f ba 25 d1 36 3a   j..;#.6:{...%.6:
+01c0  70 68 55 32 1b d3 36 3a 2a 49 13 a1 91 c0 36 3a   phU2..6:*I....6:
+01d0  da bb 55 8a 20 a4 36 3a cb 74 81 f3 21 b8 36 3a   ..U. .6:.t..!.6:
+01e0  dc 84 6a ae 1b c4 36 3a 3d df 41 c9 1d 09 36 3a   ..j...6:=.A...6:
+01f0  70 69 96 0c 1b b0 36 3a da ad 4b 15 04 09 36 3a   pi....6:..K...6:
+0200  72 18 26 52 1e 7c 36 3a 67 03 c3 76 25 03 36 3a   r.&R.|6:g..v%.6:
+0210  6f ff a8 ad 23 2f 36 3a 6f f8 44 0e 21 77 36 3a   o...#/6:o.D.!w6:
+0220  73 a5 f8 55 67 5c 36 3a 24 ea 5a ca 22 d1 36 3a   s..Ug\6:$.Z.".6:
+0230  7a 79 b8 92 26 5d 36 3a 24 ef ea cb 1e 50 36 3a   zy..&]6:$....P6:
+0240  01 af 9f 47 13 ea 36 3a 3b 66 91 f9 1f b8 36 3a   ...G..6:;f....6:
+0250  6f fb c7 4b 23 a4 36 3a df 13 bd 6e 26 3f 36 3a   o..K#.6:...n&?6:
+0260  3d 3a 48 e2 21 ec 36 3a 6f f3 11 71 22 c3 36 3a   =:H.!.6:o..q".6:
+0270  24 eb 0e 5f 21 c3 36 3a df 8b 87 f2 6b 87 36 3a   $.._!.6:....k.6:
+0280  24 e7 5d 02 11 fc 36 3a 24 e4 b4 1e 07 b5 36 3a   $.]...6:$.....6:
+0290  24 ea 7e 37 05 68 36 3a 72 19 fe 23 22 32 36 3a   $.~7.h6:r..#"26:
+02a0  24 ee ee 51 1d ac 36 3a 3d e6 74 ac 27 98 36 3a   $..Q..6:=.t.'.6:
+02b0  24 e7 5e 87 07 25 36 3a 24 ea ad 35 22 0c 36 3a   $.^..%6:$..5".6:
+02c0  7a 79 56 21 1e a9 65 65 31 3a 74 32 3a 71 b9 31   zyV!..ee1:t2:q.1
+02d0  3a 76 34 3a 55 54 a1 9d 31 3a 79 31 3a 72 65      :v4:UT..1:y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+    125 23.819415000   67.185.106.73         192.168.1.129         UDP      341    Source port: 50321  Destination port: 26714
+
+Frame 125: 341 bytes on wire (2728 bits), 341 bytes captured (2728 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 67.185.106.73 (67.185.106.73), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 327
+    Identification: 0x0000 (0)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 55
+    Protocol: UDP (17)
+    Header checksum: 0xd25a [validation disabled]
+    Source: 67.185.106.73 (67.185.106.73)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+User Datagram Protocol, Src Port: 50321 (50321), Dst Port: 26714 (26714)
+Data (299 bytes)
+
+0000  64 32 3a 69 70 36 3a 43 aa 85 b0 68 5a 31 3a 72   d2:ip6:C...hZ1:r
+0010  64 32 3a 69 64 32 30 3a 65 65 39 8f d4 c9 b6 dd   d2:id20:ee9.....
+0020  66 2e 9e 09 59 34 a5 ed f3 f1 ef 77 35 3a 6e 6f   f...Y4.....w5:no
+0030  64 65 73 32 30 38 3a 4b 2c 5c ff 8c fa df 52 81   des208:K,\....R.
+0040  8c 19 1a 0a 8e 7a 01 78 1f 75 e6 5d 4f ea ec e2   .....z.x.u.]O...
+0050  58 4e bd ca bc 96 51 fa 16 15 39 df be f0 41 6d   XN....Q...9...Am
+0060  b8 7e fc b0 35 2e 30 bd 69 cf 36 44 36 5a 0d 85   .~..5.0.i.6D6Z..
+0070  a3 ca 84 b8 82 6a 29 c6 c5 69 ef b2 e6 f9 a2 18   .....j)..i......
+0080  57 c7 3b a9 f4 5e 3c 48 94 20 c9 51 09 30 5b 27   W.;..^<H. .Q.0['
+0090  72 13 b7 16 4c 3e 32 2e 2d 53 95 7c c2 1a e1 68   r...L>2.-S.|...h
+00a0  46 4e 73 4b 8e 48 bb f9 fd fc 7f 23 54 c6 27 a4   FNsK.H.....#T.'.
+00b0  81 57 48 53 95 7d 5f 1a e1 68 24 e8 4f b5 d0 8c   .WHS.}_..h$.O...
+00c0  63 2a a0 cd c6 ca a3 58 ac cb cb a7 f7 5f 85 37   c*.....X....._.7
+00d0  2c 95 83 6d 1e 54 50 ad e7 6d 7b 35 98 1e 73 05   ,..m.TP..m{5..s.
+00e0  4b 49 73 6f 64 8f 12 32 95 5d af 65 e5 6d 1e 57   KIsod..2.].e.m.W
+00f0  b8 ad fc b5 0a 3b 0e 92 7d 0a 6c 57 d0 6b 74 fd   .....;..}.lW.kt.
+0100  33 4c a8 6c 6e 91 b3 31 3a 70 69 32 36 37 31 34   3L.ln..1:pi26714
+0110  65 65 31 3a 74 34 3a 55 12 00 00 31 3a 76 34 3a   ee1:t4:U...1:v4:
+0120  4c 54 01 00 31 3a 79 31 3a 72 65                  LT..1:y1:re
+
+No.     Time           Source                Destination           Protocol Length Info
+    126 24.334939000   192.168.1.129         128.193.40.95         TCP      66     [TCP Retransmission] 49846→445 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=256 SACK_PERM=1
+
+Frame 126: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.193.40.95 (128.193.40.95)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f47 (8007)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x7033 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.193.40.95 (128.193.40.95)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49846 (49846), Dst Port: 445 (445), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    127 24.773722000   fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 127: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
+
+No.     Time           Source                Destination           Protocol Length Info
+    128 25.426925000   192.168.1.129         128.193.40.95         TCP      66     [TCP Retransmission] 49847→139 [SYN] Seq=0 Win=8192 Len=0 MSS=1260 WS=256 SACK_PERM=1
+
+Frame 128: 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.193.40.95 (128.193.40.95)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 52
+    Identification: 0x1f48 (8008)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0x7032 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.193.40.95 (128.193.40.95)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49847 (49847), Dst Port: 139 (139), Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    129 26.120231000   128.119.245.12        192.168.1.129         TCP      54     80→49842 [FIN, ACK] Seq=927 Ack=789 Win=31360 Len=0
+
+Frame 129: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9), Dst: IntelCor_40:cb:03 (f8:16:54:40:cb:03)
+Internet Protocol Version 4, Src: 128.119.245.12 (128.119.245.12), Dst: 192.168.1.129 (192.168.1.129)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x20 (DSCP 0x08: Class Selector 1; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x3f31 (16177)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 47
+    Protocol: TCP (6)
+    Header checksum: 0xd4d1 [validation disabled]
+    Source: 128.119.245.12 (128.119.245.12)
+    Destination: 192.168.1.129 (192.168.1.129)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 80 (80), Dst Port: 49842 (49842), Seq: 927, Ack: 789, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    130 26.120626000   192.168.1.129         128.119.245.12        TCP      54     49842→80 [ACK] Seq=789 Ack=928 Win=65792 Len=0
+
+Frame 130: 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: Cisco-Li_eb:0a:d9 (20:aa:4b:eb:0a:d9)
+Internet Protocol Version 4, Src: 192.168.1.129 (192.168.1.129), Dst: 128.119.245.12 (128.119.245.12)
+    Version: 4
+    Header Length: 20 bytes
+    Differentiated Services Field: 0x00 (DSCP 0x00: Default; ECN: 0x00: Not-ECT (Not ECN-Capable Transport))
+    Total Length: 40
+    Identification: 0x1f49 (8009)
+    Flags: 0x02 (Don't Fragment)
+    Fragment offset: 0
+    Time to live: 128
+    Protocol: TCP (6)
+    Header checksum: 0xa3d9 [validation disabled]
+    Source: 192.168.1.129 (192.168.1.129)
+    Destination: 128.119.245.12 (128.119.245.12)
+    [Source GeoIP: Unknown]
+    [Destination GeoIP: Unknown]
+Transmission Control Protocol, Src Port: 49842 (49842), Dst Port: 80 (80), Seq: 789, Ack: 928, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+    131 27.773318000   fe80::810b:10f:40b7:c58f ff02::c               SSDP     208    M-SEARCH * HTTP/1.1 
+
+Frame 131: 208 bytes on wire (1664 bits), 208 bytes captured (1664 bits) on interface 0
+Ethernet II, Src: IntelCor_40:cb:03 (f8:16:54:40:cb:03), Dst: IPv6mcast_0c (33:33:00:00:00:0c)
+Internet Protocol Version 6, Src: fe80::810b:10f:40b7:c58f (fe80::810b:10f:40b7:c58f), Dst: ff02::c (ff02::c)
+User Datagram Protocol, Src Port: 53709 (53709), Dst Port: 1900 (1900)
+Hypertext Transfer Protocol
